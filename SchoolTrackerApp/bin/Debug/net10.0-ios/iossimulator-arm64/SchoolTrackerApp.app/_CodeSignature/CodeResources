@@ -16,6 +16,10 @@
 		<data>
 		+ZRqlRwLvaOQiijWJP8aq64eonU=
 		</data>
+		<key>MauiInfo.plist</key>
+		<data>
+		iEtuUGCV6JM3gxS/pO33swhmpp8=
+		</data>
 		<key>MauiSplash.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
 		Y78DTyz7+rkuDbhphGJe+YK2rLQ=
@@ -146,11 +150,11 @@
 		</data>
 		<key>SchoolTrackerApp.dll</key>
 		<data>
-		NSa3oHZ4UmYwuSKxmMbiSdyJVlY=
+		UUaAxIFLyOXHQ1xZTSJdWRlK+AA=
 		</data>
 		<key>SchoolTrackerApp.pdb</key>
 		<data>
-		xFi/RqcMTCZR9MbC+ciKhjROU6A=
+		c9ynCEhRpA9z9CfEyPpJIOu0eBQ=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
@@ -1065,6 +1069,13 @@
 			GmikrNKgEDuYFP2qetmDi20e1qsV6uwKTPKMTpefdjs=
 			</data>
 		</dict>
+		<key>MauiInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tx0KXqEC+DvcCGyogQTEQWHcCWJYYqH24NtPwhpQEjo=
+			</data>
+		</dict>
 		<key>MauiSplash.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -1286,14 +1297,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TFdUuuXrrlFI1mlSv0VSN7UOkgfY94/uIb3GRhEQBp0=
+			4P7tYnK5QEhIjZ4DukDMgFKBTxl7glpyp91q9K/Ri1s=
 			</data>
 		</dict>
 		<key>SchoolTrackerApp.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			emr1dsP2ikGfCIb3mdH2Lh4hU49OeES8BZxkcXnUOZw=
+			URbnZkBkCw9qRLYYJmRvIGEIcEdyL8GXON2L7dytuqI=
 			</data>
 		</dict>
 		<key>Settings.bundle/Root.plist</key>
