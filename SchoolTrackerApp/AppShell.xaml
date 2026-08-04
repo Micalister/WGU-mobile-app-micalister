@@ -7,7 +7,7 @@
     Title="SchoolTrackerApp">
 
     <ShellContent
-        Title="Home"
+        Title="H"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 

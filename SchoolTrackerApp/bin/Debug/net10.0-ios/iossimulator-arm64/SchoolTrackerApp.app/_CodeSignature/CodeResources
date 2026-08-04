@@ -22,7 +22,7 @@
 		</data>
 		<key>MauiSplash.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		Y78DTyz7+rkuDbhphGJe+YK2rLQ=
+		ZQBahkydl7JCP1VzIILyto9UIqc=
 		</data>
 		<key>MauiSplash.storyboardc/Info.plist</key>
 		<data>
@@ -150,11 +150,11 @@
 		</data>
 		<key>SchoolTrackerApp.dll</key>
 		<data>
-		l0OKa4qpjjhEqbFOy62idZgMTd8=
+		Y/gukMCeUB3VKjCyFsLdjAQNeGY=
 		</data>
 		<key>SchoolTrackerApp.pdb</key>
 		<data>
-		IS5PfJzzNh9nmsXGsdcN3mPFqh8=
+		gL0wmoCqBQQHyvHQHcjCsCws298=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
@@ -1004,6 +1004,18 @@
 		<data>
 		2fWVubiaG81rO+4kJQAbOFcR/Zg=
 		</data>
+		<key>splash_0283AD6CFE5C4C91B5F372523130610917E58E7426C61600FA119239548C0326.png</key>
+		<data>
+		1tkVMAf42HuLfmbqfsjXhcE9eA8=
+		</data>
+		<key>splash_0283AD6CFE5C4C91B5F372523130610917E58E7426C61600FA119239548C0326@2x.png</key>
+		<data>
+		J3K8XG1RKwky2uut1iq0tuEI+L4=
+		</data>
+		<key>splash_0283AD6CFE5C4C91B5F372523130610917E58E7426C61600FA119239548C0326@3x.png</key>
+		<data>
+		BrpWbufp/3QljFwTD4YYSyIhNFQ=
+		</data>
 		<key>splash_7CF9AE42DA2017EC6621B726A870D40F01970097ED8F3D99ABBC1EC8470F119D.png</key>
 		<data>
 		e6LlBMI9b91XaCSQDhDOglC5cA8=
@@ -1015,6 +1027,18 @@
 		<key>splash_7CF9AE42DA2017EC6621B726A870D40F01970097ED8F3D99ABBC1EC8470F119D@3x.png</key>
 		<data>
 		V9uL2U0a2H/Rg28AStjUugC+RP4=
+		</data>
+		<key>splash_7FE247CB90F2720EF006E2B560CEB7A7934AA31F30BB38453DAED91650F558DA.png</key>
+		<data>
+		yi7SEXOiAkOVPPI7LuPZYH3geGY=
+		</data>
+		<key>splash_7FE247CB90F2720EF006E2B560CEB7A7934AA31F30BB38453DAED91650F558DA@2x.png</key>
+		<data>
+		xLSLt8VlfRK7Lm5QrbkHZOO6dlo=
+		</data>
+		<key>splash_7FE247CB90F2720EF006E2B560CEB7A7934AA31F30BB38453DAED91650F558DA@3x.png</key>
+		<data>
+		bjjcr/znu0y26o0cfbWmpU9RCm0=
 		</data>
 		<key>sv/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
@@ -1080,7 +1104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PD0GUDDeE5JffNIPVoucOIHmED6dLPnIxI/a9Oh8ADc=
+			+o4wHCOURR80NSnYg/4T3Xh292zR9GMAY9IVMDLqvi8=
 			</data>
 		</dict>
 		<key>MauiSplash.storyboardc/Info.plist</key>
@@ -1297,14 +1321,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bGTOkJfIGNVCaSjtUsm+8bXdL3Rbrg9Mg9RqydVi+Fs=
+			cEHzzajtUAKx2xyF+PTwPY+aull9s7OjV6/9I3P0+CU=
 			</data>
 		</dict>
 		<key>SchoolTrackerApp.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8F45iZPFRfw24579DN7peKdyLgzbEQcbkIZhFHRsUi8=
+			wgI8kEqP1jC0fyg/NaPT225YjBfIaMaKVC6jYSdrSYw=
 			</data>
 		</dict>
 		<key>Settings.bundle/Root.plist</key>
@@ -2791,6 +2815,27 @@
 			6D/KVv1aG96e/QdSUUOC/pOee/79rm/uTJUJ7IIneNU=
 			</data>
 		</dict>
+		<key>splash_0283AD6CFE5C4C91B5F372523130610917E58E7426C61600FA119239548C0326.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PLHXAFBDv7aDKiYS6qino6kMC8RZ2f3mwxfTmUb+66U=
+			</data>
+		</dict>
+		<key>splash_0283AD6CFE5C4C91B5F372523130610917E58E7426C61600FA119239548C0326@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			L9orvi/T2p4lT6q78l9r5IWIym00EH0OwYq+BI8EwYM=
+			</data>
+		</dict>
+		<key>splash_0283AD6CFE5C4C91B5F372523130610917E58E7426C61600FA119239548C0326@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rZNk/a1csc29HFBwtGoLq99STgoM1ABLQ+7M8X3B5vU=
+			</data>
+		</dict>
 		<key>splash_7CF9AE42DA2017EC6621B726A870D40F01970097ED8F3D99ABBC1EC8470F119D.png</key>
 		<dict>
 			<key>hash2</key>
@@ -2810,6 +2855,27 @@
 			<key>hash2</key>
 			<data>
 			TR5wkKzih6lYQ3pqkvy+F+ZIOuoGZ1uEfeG93l0BSfE=
+			</data>
+		</dict>
+		<key>splash_7FE247CB90F2720EF006E2B560CEB7A7934AA31F30BB38453DAED91650F558DA.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kGJE+2xzEolPWBf8iFb4KK1qEjfi670YCald9czd6rI=
+			</data>
+		</dict>
+		<key>splash_7FE247CB90F2720EF006E2B560CEB7A7934AA31F30BB38453DAED91650F558DA@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			giY+snCtlbehXKzKUDJ2Q9OQKJAevEOLkTrM8gS3B0s=
+			</data>
+		</dict>
+		<key>splash_7FE247CB90F2720EF006E2B560CEB7A7934AA31F30BB38453DAED91650F558DA@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dNcCrHqr3ifSCB2oD9ksGcorfhSzz3e7YUNfcxoTq5k=
 			</data>
 		</dict>
 		<key>sv/Microsoft.Maui.Controls.resources.dll</key>
