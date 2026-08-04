@@ -28,7 +28,7 @@
 		<MauiXamlInflator>SourceGen</MauiXamlInflator>
 
 		<!-- Display name -->
-		<ApplicationTitle>SchoolTrackerApp</ApplicationTitle>
+		<ApplicationTitle>WGU Tracker</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.schooltrackerapp</ApplicationId>

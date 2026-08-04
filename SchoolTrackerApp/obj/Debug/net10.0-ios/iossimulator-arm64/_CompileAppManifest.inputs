@@ -1,7 +1,7 @@
 AppBundleName=SchoolTrackerApp
 ApplicationDisplayVersion=1.0
 ApplicationId=com.companyname.schooltrackerapp
-ApplicationTitle=SchoolTrackerApp
+ApplicationTitle=WGU Tracker
 ApplicationVersion=1
 AppManifest=Platforms/iOS/Info.plist
 CompiledAppManifest=obj/Debug/net10.0-ios/iossimulator-arm64/AppManifest.plist

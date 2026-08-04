@@ -10,11 +10,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		QgS/NhkuFCXNreZDzDxFdP8aNco=
+		a9Z1vWTswwZyVZBFHfZcg8xlVOw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+ZRqlRwLvaOQiijWJP8aq64eonU=
+		jP1nSTJAvAUqvhLG1Fkfrw7NF4w=
 		</data>
 		<key>MauiInfo.plist</key>
 		<data>
@@ -150,11 +150,11 @@
 		</data>
 		<key>SchoolTrackerApp.dll</key>
 		<data>
-		UUaAxIFLyOXHQ1xZTSJdWRlK+AA=
+		l0OKa4qpjjhEqbFOy62idZgMTd8=
 		</data>
 		<key>SchoolTrackerApp.pdb</key>
 		<data>
-		c9ynCEhRpA9z9CfEyPpJIOu0eBQ=
+		IS5PfJzzNh9nmsXGsdcN3mPFqh8=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
@@ -826,11 +826,11 @@
 		</data>
 		<key>appicon60x60@2x.png</key>
 		<data>
-		t4umfOZFumJ7QmzKhGEnyAcUk+s=
+		/K9YsK4saPI4EhmIIMOVKlEuEpY=
 		</data>
 		<key>appicon76x76@2x~ipad.png</key>
 		<data>
-		DWMNKrxV/bN2DZXE4IIeRSflUEM=
+		Q+pfi2CRNGBeEWTQXoEClaGE3gM=
 		</data>
 		<key>ar/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
@@ -1066,7 +1066,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GmikrNKgEDuYFP2qetmDi20e1qsV6uwKTPKMTpefdjs=
+			KLZR/NBjm+VA6sHXYx/4XBxR2yCgxmIJ3Ml13oeu9Fg=
 			</data>
 		</dict>
 		<key>MauiInfo.plist</key>
@@ -1297,14 +1297,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4P7tYnK5QEhIjZ4DukDMgFKBTxl7glpyp91q9K/Ri1s=
+			bGTOkJfIGNVCaSjtUsm+8bXdL3Rbrg9Mg9RqydVi+Fs=
 			</data>
 		</dict>
 		<key>SchoolTrackerApp.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			URbnZkBkCw9qRLYYJmRvIGEIcEdyL8GXON2L7dytuqI=
+			8F45iZPFRfw24579DN7peKdyLgzbEQcbkIZhFHRsUi8=
 			</data>
 		</dict>
 		<key>Settings.bundle/Root.plist</key>
@@ -2480,14 +2480,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BVwdas5bRZ6MRI591V+nnhG4tlScHZgO+REraaP+2mw=
+			DAJO0Zw/JWskB2pe+/8sWTyqHNWojHG5K8vKQ0C9lJ8=
 			</data>
 		</dict>
 		<key>appicon76x76@2x~ipad.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+qXcBrRB1S2uCBkXBJMcvDN7zD/xF3IhRUfUyZiz4ek=
+			BRQIM38N2FF/FRoM62KADd9cPHO9E9t+gMK8pC+riyk=
 			</data>
 		</dict>
 		<key>ar/Microsoft.Maui.Controls.resources.dll</key>
