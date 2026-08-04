@@ -6,8 +6,35 @@
     xmlns:local="clr-namespace:SchoolTrackerApp"
     Title="SchoolTrackerApp">
 
+    <Shell.TitleView>
+        <Grid
+            Padding="10"
+            ColumnDefinitions="Auto, *"
+            VerticalOptions="Center"
+            HorizontalOptions="Fill">
+
+            <Image
+                Grid.Column="0"
+                Source="wguicon.png"
+                Aspect="AspectFit"
+                HeightRequest="40"
+                WidthRequest="40"
+                VerticalOptions="Center"
+                HorizontalOptions="Start"/>
+
+            <Image
+                Grid.Column="1"
+                Source="profileicon.png"
+                Aspect="AspectFit"
+                HeightRequest="40"
+                WidthRequest="40"
+                VerticalOptions="Center"
+                HorizontalOptions="End"/>
+        </Grid>
+    </Shell.TitleView>
+
     <ShellContent
-        Title="H"
+        Title=""
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 

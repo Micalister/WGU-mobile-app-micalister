@@ -150,11 +150,11 @@
 		</data>
 		<key>SchoolTrackerApp.dll</key>
 		<data>
-		Y/gukMCeUB3VKjCyFsLdjAQNeGY=
+		EJ0e1mm/s6/NgrktzaEOlUXJxiY=
 		</data>
 		<key>SchoolTrackerApp.pdb</key>
 		<data>
-		gL0wmoCqBQQHyvHQHcjCsCws298=
+		CUsOyNSyvEXiUgH2IXgge2S8TKM=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
@@ -852,18 +852,6 @@
 		<data>
 		eV5p0x3bouvVnU9DWXw9YvZtYqY=
 		</data>
-		<key>dotnet_bot.png</key>
-		<data>
-		7XA0DBxHt4f3rgG7sHwMI5VUDN0=
-		</data>
-		<key>dotnet_bot@2x.png</key>
-		<data>
-		czsW/Oi42ZskPwvS8wfclLHCDUM=
-		</data>
-		<key>dotnet_bot@3x.png</key>
-		<data>
-		fI641eL9jR0ctyTre3xTwKkfsn8=
-		</data>
 		<key>el/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
 		jIBTNipHEFaMgQ1c5Eaw5RBtmxM=
@@ -980,6 +968,18 @@
 		<data>
 		icPn//PDGlPX1uZzxz8FJOZWk4E=
 		</data>
+		<key>profileicon.png</key>
+		<data>
+		5/9OLrN/o8mngwKCHvov0pCTVko=
+		</data>
+		<key>profileicon@2x.png</key>
+		<data>
+		MIFsjLeg51/7RJjFImy5Pl2gEdY=
+		</data>
+		<key>profileicon@3x.png</key>
+		<data>
+		VxFYJYlJCSzb2mMdsLMTndl0DRQ=
+		</data>
 		<key>pt-BR/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
 		YHbZEcON3ZyUylSXu7jtyzYO+w8=
@@ -1003,30 +1003,6 @@
 		<key>sk/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
 		2fWVubiaG81rO+4kJQAbOFcR/Zg=
-		</data>
-		<key>splash_0283AD6CFE5C4C91B5F372523130610917E58E7426C61600FA119239548C0326.png</key>
-		<data>
-		1tkVMAf42HuLfmbqfsjXhcE9eA8=
-		</data>
-		<key>splash_0283AD6CFE5C4C91B5F372523130610917E58E7426C61600FA119239548C0326@2x.png</key>
-		<data>
-		J3K8XG1RKwky2uut1iq0tuEI+L4=
-		</data>
-		<key>splash_0283AD6CFE5C4C91B5F372523130610917E58E7426C61600FA119239548C0326@3x.png</key>
-		<data>
-		BrpWbufp/3QljFwTD4YYSyIhNFQ=
-		</data>
-		<key>splash_7CF9AE42DA2017EC6621B726A870D40F01970097ED8F3D99ABBC1EC8470F119D.png</key>
-		<data>
-		e6LlBMI9b91XaCSQDhDOglC5cA8=
-		</data>
-		<key>splash_7CF9AE42DA2017EC6621B726A870D40F01970097ED8F3D99ABBC1EC8470F119D@2x.png</key>
-		<data>
-		gr+pgKyzNNxtcT1JaZIj7N80Fxc=
-		</data>
-		<key>splash_7CF9AE42DA2017EC6621B726A870D40F01970097ED8F3D99ABBC1EC8470F119D@3x.png</key>
-		<data>
-		V9uL2U0a2H/Rg28AStjUugC+RP4=
 		</data>
 		<key>splash_7FE247CB90F2720EF006E2B560CEB7A7934AA31F30BB38453DAED91650F558DA.png</key>
 		<data>
@@ -1060,9 +1036,17 @@
 		<data>
 		q0Q0GZp7YrERJ+3t3OVCHrHw/wA=
 		</data>
-		<key>xml/microsoft_maui_essentials_fileprovider_file_paths.xml</key>
+		<key>wguicon.png</key>
 		<data>
-		0ZugOR08oYUyn+ivNzk266eEOoY=
+		cCx36VRWBsgoq1AQNkHA7EPearg=
+		</data>
+		<key>wguicon@2x.png</key>
+		<data>
+		MN8nz+MztGZ4wtLN2jfAXqo6/gI=
+		</data>
+		<key>wguicon@3x.png</key>
+		<data>
+		tqBT7k+eoyCqV5vcQgBsZYH9Hi4=
 		</data>
 		<key>zh-HK/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
@@ -1321,14 +1305,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cEHzzajtUAKx2xyF+PTwPY+aull9s7OjV6/9I3P0+CU=
+			v2zKOWD9GwPUoP4lfloxbPUnI22R2CIfo5cgxJAVOSQ=
 			</data>
 		</dict>
 		<key>SchoolTrackerApp.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wgI8kEqP1jC0fyg/NaPT225YjBfIaMaKVC6jYSdrSYw=
+			+j2kYiPIAAQiJqQ6nfv40dXOmTCL4Jn0b+7uZo957oQ=
 			</data>
 		</dict>
 		<key>Settings.bundle/Root.plist</key>
@@ -2549,27 +2533,6 @@
 			uoPh2EBWP1szpQKhBMDFz+PE3/BDlOQZY8xqctvEy4g=
 			</data>
 		</dict>
-		<key>dotnet_bot.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7YWJ1W4GuCS20xv6UHDzgwn24QJzPXXIoQL3nLWEjBk=
-			</data>
-		</dict>
-		<key>dotnet_bot@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7rl2v9YuPZswM4PzCEKE59B3SLUqQvgSfHh79oLLpY4=
-			</data>
-		</dict>
-		<key>dotnet_bot@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rSLn1k43aQXR7mL0G0rG/4hhLC1hBtjJ3USgbIFRDnk=
-			</data>
-		</dict>
 		<key>el/Microsoft.Maui.Controls.resources.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -2773,6 +2736,27 @@
 			ypdGIHCZJZ94t3XUrlQ2aEljlDz9SSnCh91QJDmCXWc=
 			</data>
 		</dict>
+		<key>profileicon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			la7BGNyrNWRGAGD/4OMtt+pWE1Umu698ZsWrmrgGIcs=
+			</data>
+		</dict>
+		<key>profileicon@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7CNE5Xr5qxtNH72GwYNwNtgwBBVFdQNa6Q3ZGm5aJjk=
+			</data>
+		</dict>
+		<key>profileicon@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+VZlRYresMCizMGRnd6BC9aJLOaL22TrF0zpngi6ySk=
+			</data>
+		</dict>
 		<key>pt-BR/Microsoft.Maui.Controls.resources.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -2813,48 +2797,6 @@
 			<key>hash2</key>
 			<data>
 			6D/KVv1aG96e/QdSUUOC/pOee/79rm/uTJUJ7IIneNU=
-			</data>
-		</dict>
-		<key>splash_0283AD6CFE5C4C91B5F372523130610917E58E7426C61600FA119239548C0326.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PLHXAFBDv7aDKiYS6qino6kMC8RZ2f3mwxfTmUb+66U=
-			</data>
-		</dict>
-		<key>splash_0283AD6CFE5C4C91B5F372523130610917E58E7426C61600FA119239548C0326@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			L9orvi/T2p4lT6q78l9r5IWIym00EH0OwYq+BI8EwYM=
-			</data>
-		</dict>
-		<key>splash_0283AD6CFE5C4C91B5F372523130610917E58E7426C61600FA119239548C0326@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rZNk/a1csc29HFBwtGoLq99STgoM1ABLQ+7M8X3B5vU=
-			</data>
-		</dict>
-		<key>splash_7CF9AE42DA2017EC6621B726A870D40F01970097ED8F3D99ABBC1EC8470F119D.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Dpf6ieSaphEudmfGWM4o56pf3pK2gzcp9vYU5dZF9S0=
-			</data>
-		</dict>
-		<key>splash_7CF9AE42DA2017EC6621B726A870D40F01970097ED8F3D99ABBC1EC8470F119D@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YMCf+Kl7v6nI7SmNKxsD3oxz8b7W8NbOK9pl/268poY=
-			</data>
-		</dict>
-		<key>splash_7CF9AE42DA2017EC6621B726A870D40F01970097ED8F3D99ABBC1EC8470F119D@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TR5wkKzih6lYQ3pqkvy+F+ZIOuoGZ1uEfeG93l0BSfE=
 			</data>
 		</dict>
 		<key>splash_7FE247CB90F2720EF006E2B560CEB7A7934AA31F30BB38453DAED91650F558DA.png</key>
@@ -2913,11 +2855,25 @@
 			Wf9q44Kvhilmt2Ye+a3VrOjp5IjJBJpLZzzwW2ZDyPw=
 			</data>
 		</dict>
-		<key>xml/microsoft_maui_essentials_fileprovider_file_paths.xml</key>
+		<key>wguicon.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W4mBx+OWozujR6fIlOuqppzspq5DXmkX1Oo5zBuPD6Q=
+			SG60Wyhra75knJSDtBQKX74m/DHX6BMalQdpaFgVr+s=
+			</data>
+		</dict>
+		<key>wguicon@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K3fuInStxQ1a/hAZQKZcNDwuV4sBirFuBLVEJL4b9C8=
+			</data>
+		</dict>
+		<key>wguicon@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AtbOIjjYIsgzNHtR3Jq5RiO819Lh2mKVLG3NnbbxeWU=
 			</data>
 		</dict>
 		<key>zh-HK/Microsoft.Maui.Controls.resources.dll</key>
