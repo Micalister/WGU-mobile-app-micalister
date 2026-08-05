@@ -5,7 +5,10 @@
              BackgroundColor="{StaticResource Primary}">
 
     <ScrollView>
-        
+        <BoxView 
+            Color="green"
+            WidthRequest="150"
+            HeightRequest="150" />
     </ScrollView>
 
 </ContentPage>
