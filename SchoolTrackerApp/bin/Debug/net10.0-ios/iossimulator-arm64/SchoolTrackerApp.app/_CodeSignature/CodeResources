@@ -150,11 +150,11 @@
 		</data>
 		<key>SchoolTrackerApp.dll</key>
 		<data>
-		RgX+spr5tfP7mptgexaX6G8tuDY=
+		aLKjPxeQMdwxUI1/IZiydzIaza0=
 		</data>
 		<key>SchoolTrackerApp.pdb</key>
 		<data>
-		M2PHEPS+s8JbTZTtYmbgM7VcDes=
+		xg3GFH44KsX2kFkSNQv10awyDYE=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
@@ -860,6 +860,10 @@
 		<data>
 		uVcIo0P8YW/yUoimBQph4ImU5oU=
 		</data>
+		<key>expand.png</key>
+		<data>
+		HWWDXM6WRuAb3aMQa6m45WwITmQ=
+		</data>
 		<key>fi/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
 		3Ilab07WXtJ1Qii/49Ug+GOHBS0=
@@ -1293,14 +1297,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+g7yfOHYt8pU5DMZz2q9tnnvigd+hasx1Bo2Nnye/aU=
+			V5x2bSjv7shdQwE5zy5heZRdptsL+184U/lSYoLSh0M=
 			</data>
 		</dict>
 		<key>SchoolTrackerApp.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rUR8qt019QO/wuxvNA1sRVt79HRzGP8I92/7FeveBFw=
+			Yb2mJhfopcWllzrs8dn8CkeAGPzGBRJ3TS98KB35Nu8=
 			</data>
 		</dict>
 		<key>Settings.bundle/Root.plist</key>
@@ -2533,6 +2537,13 @@
 			<key>hash2</key>
 			<data>
 			/T5XJpLqIF77jOtCd12e0KxgAm1te2v049I6gsQoghM=
+			</data>
+		</dict>
+		<key>expand.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JE9JlEs9Plb57Bgh1usDqSL2MQqgT9Om3USstmDwLnc=
 			</data>
 		</dict>
 		<key>fi/Microsoft.Maui.Controls.resources.dll</key>
