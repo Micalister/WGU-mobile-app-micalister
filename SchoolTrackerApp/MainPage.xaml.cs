@@ -23,6 +23,8 @@ public partial class MainPage : ContentPage
 				new Terms
 				{
 					TermID = "Term 1",
+					TermStartDate = new DateTime(1,1,1),
+					TermEndDate = new DateTime(1,1,1),
 					Classes = new List<Classes>
 					{
 						new Classes
@@ -181,6 +183,8 @@ public partial class MainPage : ContentPage
 				new Terms
 				{
 					TermID = "Term 2",
+					TermStartDate = new DateTime(1,1,1),
+					TermEndDate = new DateTime(1,1,1),
 					Classes = new List<Classes>
 					{
 						new Classes
@@ -339,6 +343,8 @@ public partial class MainPage : ContentPage
 				new Terms
 				{
 					TermID = "Term 3",
+					TermStartDate = new DateTime(1,1,1),
+					TermEndDate = new DateTime(1,1,1),
 					Classes = new List<Classes>
 					{
 						new Classes
@@ -497,6 +503,8 @@ public partial class MainPage : ContentPage
 				new Terms
 				{
 					TermID = "Term 4",
+					TermStartDate = new DateTime(1,1,1),
+					TermEndDate = new DateTime(1,1,1),
 					Classes = new List<Classes>
 					{
 						new Classes
@@ -655,6 +663,8 @@ public partial class MainPage : ContentPage
 				new Terms
 				{
 					TermID = "Term 5",
+					TermStartDate = new DateTime(1,1,1),
+					TermEndDate = new DateTime(1,1,1),
 					Classes = new List<Classes>
 					{
 						new Classes
@@ -813,6 +823,8 @@ public partial class MainPage : ContentPage
 				new Terms
 				{
 					TermID = "Term 6",
+					TermStartDate = new DateTime(1,1,1),
+					TermEndDate = new DateTime(1,1,1),
 					Classes = new List<Classes>
 					{
 						new Classes
@@ -973,8 +985,8 @@ public partial class MainPage : ContentPage
 	this.BindingContext = MyRoadmap;
 	
 // debug lines here
-	System.Diagnostics.Debug.WriteLine("MyRoadmap Terms Count: " + MyRoadmap.Terms.Count);
-	System.Diagnostics.Debug.WriteLine("testing min date: " + MyRoadmap.Terms[0].Classes[0].StartDate);
+	//System.Diagnostics.Debug.WriteLine("MyRoadmap Terms Count: " + MyRoadmap.Terms.Count);
+	//System.Diagnostics.Debug.WriteLine("testing min date: " + MyRoadmap.Terms[0].Classes[0].StartDate);
 		
 	}
 	

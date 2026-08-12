@@ -42,7 +42,7 @@
                             
                             <!-- Start Date Variable -->
                             <Label Grid.Column="1" 
-                                Text="01/01/26" 
+                                Text="{Binding TermStartDate, StringFormat='{0:MM/dd/yy}'}" 
                                 FontSize="14" 
                                 TextColor="Gray" 
                                 HorizontalOptions="End" 
@@ -59,7 +59,7 @@
 
                             <!-- End Date Variable -->
                             <Label Grid.Column="3" 
-                                Text="02/05/26" 
+                                Text="{Binding TermEndDate, StringFormat='{0:MM/dd/yy}'}" 
                                 FontSize="14" 
                                 TextColor="Gray" 
                                 HorizontalOptions="End" 

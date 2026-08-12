@@ -24,6 +24,8 @@ public class Classes
 public class Terms
 {
     public string TermID { get; set; } = string.Empty;
+    public DateTime? TermStartDate { get; set; } = null;
+    public DateTime? TermEndDate { get; set; } = null;
     public List<Classes> Classes { get; set; } = new();
 }
 
