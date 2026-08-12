@@ -3,840 +3,130 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SchoolTrackerApp.MainPage"
-             BackgroundColor="{StaticResource Primary}">
+             BackgroundColor="{StaticResource Primary}"
+             xmlns:models="clr-namespace:SchoolTrackerApp.Models">
 
-    <ScrollView>
+    <ScrollView Padding="0, 10, 0, 0">
     
-    <VerticalStackLayout Padding="20" Spacing="20">
-        
-        <!-- CARD 1 -->
-        <Border BackgroundColor="White" 
-                StrokeThickness="0" 
-                HorizontalOptions="Center" 
-                VerticalOptions="Center" 
-                WidthRequest="342" 
-                HeightRequest="478">
-            <Border.StrokeShape>
-                <RoundRectangle CornerRadius="0,30,30,30" />
-            </Border.StrokeShape>
-            
-            <VerticalStackLayout Padding="20" Spacing="10">
-                <Grid ColumnDefinitions="1.8*, Auto, Auto, Auto" VerticalOptions="Center">
-                    <!-- Term Label -->
-                    <Label Grid.Column="0" 
-                        Text="Term 1:" 
-                        FontSize="24" 
-                        FontAttributes="Bold" 
-                        TextColor="Black" 
-                        VerticalOptions="Center" />
-                    
-                    <!-- Start Date Variable -->
-                    <Label Grid.Column="1" 
-                        Text="01/01/26" 
-                        FontSize="14" 
-                        TextColor="Gray" 
-                        HorizontalOptions="End" 
-                        VerticalOptions="Center" />
-
-                    <!-- "-" placement -->
-                    <Label Grid.Column="2" 
-                        Text="-" 
-                        Margin="2, 0"
-                        FontSize="14" 
-                        TextColor="Gray" 
-                        HorizontalOptions="End" 
-                        VerticalOptions="Center" />
-
-                    <!-- End Date Variable -->
-                    <Label Grid.Column="3" 
-                        Text="02/05/26" 
-                        FontSize="14" 
-                        TextColor="Gray" 
-                        HorizontalOptions="End" 
-                        VerticalOptions="Center" />
-                </Grid>
-
-        <!-- Class Stack for the Term -->
-        <VerticalStackLayout Spacing="16">
-            
-            <!-- Class 1 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
+<!-- starting the process of changing the design -->
+<!-- these tags tell the xaml to unpack each term into the design -->
+<CollectionView ItemsSource="{Binding Terms}">
+    <CollectionView.ItemTemplate>
+        <DataTemplate x:DataType="models:Term">
+            <!-- Phone Body -->
+            <VerticalStackLayout Padding="20, 0">
                 
-            </Border>
-
-            <!-- Class 2 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
+                <!-- CARD BODY -->
+                <Border BackgroundColor="White" 
+                        StrokeThickness="0" 
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center" 
+                        WidthRequest="342" 
+                        HeightRequest="478">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="0,30,30,30" />
+                    </Border.StrokeShape>
                     
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
+                    <!-- Card Content -->
+                    <VerticalStackLayout Padding="20" Spacing="10">
 
-            <!-- Class 3 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
+                        <!-- Term Header -->
+                        <Grid ColumnDefinitions="1.8*, Auto, Auto, Auto" VerticalOptions="Center">
+                            <!-- Term Label -->
+                            <Label Grid.Column="0" 
+                                Text="{Binding TermID}" 
+                                FontSize="24" 
+                                FontAttributes="Bold" 
+                                TextColor="Black" 
+                                VerticalOptions="Center" />
+                            
+                            <!-- Start Date Variable -->
+                            <Label Grid.Column="1" 
+                                Text="01/01/26" 
+                                FontSize="14" 
+                                TextColor="Gray" 
+                                HorizontalOptions="End" 
+                                VerticalOptions="Center" />
 
-            <!-- Class 4 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
+                            <!-- "-" placement -->
+                            <Label Grid.Column="2" 
+                                Text="-" 
+                                Margin="2, 0"
+                                FontSize="14" 
+                                TextColor="Gray" 
+                                HorizontalOptions="End" 
+                                VerticalOptions="Center" />
 
-            <!-- Class 5 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
+                            <!-- End Date Variable -->
+                            <Label Grid.Column="3" 
+                                Text="02/05/26" 
+                                FontSize="14" 
+                                TextColor="Gray" 
+                                HorizontalOptions="End" 
+                                VerticalOptions="Center" />
+                        </Grid>
 
-            <!-- Class 6 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
+                        <!-- Class Stack for the Term -->
+                        <VerticalStackLayout Spacing="16" BindableLayout.ItemsSource="{Binding Classes}">
+                            <BindableLayout.ItemTemplate>
+                                <DataTemplate x:DataType="models:Classes">
+                                    <!-- Classes Unpacked -->
+                                    <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
+                                        <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
+                                        <!-- Content of the class -->
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
+                                        <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
+                                            
+                                            <Border Stroke="Transparent"
+                                                    BackgroundColor="White"
+                                                    HeightRequest="36"
+                                                    WidthRequest="36">
+                                                <Border.StrokeShape>
+                                                    <RoundRectangle CornerRadius="100" />
+                                                </Border.StrokeShape>
+                                            </Border>
+                                            <!-- Class Credits -->
+                                            <Label Text="{Binding Credits}"
+                                                HorizontalOptions="Center"
+                                                VerticalOptions="Center"
+                                                TextColor="{StaticResource Primary}"
+                                                FontSize="28"
+                                                FontAttributes="Bold"/>
+                                        </Grid>
+                                        <!-- Class Name -->
+                                        <Label Text="{Binding ClassName}"
+                                            HorizontalOptions="Start"
+                                            VerticalOptions="Center"
+                                            TextColor="White"
+                                            FontSize="18"
+                                            FontAttributes="Bold"
+                                            Margin="0"/>
+                                        </StackLayout>
+                                        
+                                    </Border>
+                                </DataTemplate>
+                            </BindableLayout.ItemTemplate>
+                        </VerticalStackLayout>
 
-        </VerticalStackLayout>
+
+                    </VerticalStackLayout>
+                </Border>
+
+                <ImageButton Source="expand.png"
+                            Clicked="ExpandButton_Clicked"
+                            BackgroundColor="Transparent"
+                            WidthRequest="50"
+                            HeightRequest="50"
+                            HorizontalOptions="End"
+                            TranslationX="14"
+                            TranslationY="-250"
+                            />
 
             </VerticalStackLayout>
-        </Border>
+        </DataTemplate>
+    </CollectionView.ItemTemplate>
+</CollectionView>
 
-        <ImageButton Source="expand.png"
-                    Clicked="ExpandButton_Clicked"
-                     BackgroundColor="Transparent"
-                     WidthRequest="50"
-                     HeightRequest="50"
-                     HorizontalOptions="End"
-                     TranslationX="14"
-                     TranslationY="-270"
-                    />
-
-        <!-- CARDS will be loaded here -->
-        
-        <!-- CARD 1 -->
-        <Border BackgroundColor="White" 
-                StrokeThickness="0" 
-                HorizontalOptions="Center" 
-                VerticalOptions="Center" 
-                WidthRequest="342" 
-                HeightRequest="478">
-            <Border.StrokeShape>
-                <RoundRectangle CornerRadius="0,30,30,30" />
-            </Border.StrokeShape>
-            
-            <VerticalStackLayout Padding="20" Spacing="10">
-                <Grid ColumnDefinitions="1.8*, Auto, Auto, Auto" VerticalOptions="Center">
-                    <!-- Term Label -->
-                    <Label Grid.Column="0" 
-                        Text="Term 1:" 
-                        FontSize="24" 
-                        FontAttributes="Bold" 
-                        TextColor="Black" 
-                        VerticalOptions="Center" />
-                    
-                    <!-- Start Date Variable -->
-                    <Label Grid.Column="1" 
-                        Text="01/01/26" 
-                        FontSize="14" 
-                        TextColor="Gray" 
-                        HorizontalOptions="End" 
-                        VerticalOptions="Center" />
-
-                    <!-- "-" placement -->
-                    <Label Grid.Column="2" 
-                        Text="-" 
-                        Margin="2, 0"
-                        FontSize="14" 
-                        TextColor="Gray" 
-                        HorizontalOptions="End" 
-                        VerticalOptions="Center" />
-
-                    <!-- End Date Variable -->
-                    <Label Grid.Column="3" 
-                        Text="02/05/26" 
-                        FontSize="14" 
-                        TextColor="Gray" 
-                        HorizontalOptions="End" 
-                        VerticalOptions="Center" />
-                </Grid>
-
-        <!-- Class Stack for the Term -->
-        <VerticalStackLayout Spacing="16">
-            
-            <!-- Class 1 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
-
-            <!-- Class 2 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
-
-            <!-- Class 3 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
-
-            <!-- Class 4 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
-
-            <!-- Class 5 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
-
-            <!-- Class 6 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
-
-        </VerticalStackLayout>
-
-            </VerticalStackLayout>
-        </Border>
-
-        <ImageButton Source="expand.png"
-                    Clicked="ExpandButton_Clicked"
-                     BackgroundColor="Transparent"
-                     WidthRequest="50"
-                     HeightRequest="50"
-                     HorizontalOptions="End"
-                     TranslationX="14"
-                     TranslationY="-270"
-                    />
-
-        <!-- CARD 1 -->
-        <Border BackgroundColor="White" 
-                StrokeThickness="0" 
-                HorizontalOptions="Center" 
-                VerticalOptions="Center" 
-                WidthRequest="342" 
-                HeightRequest="478">
-            <Border.StrokeShape>
-                <RoundRectangle CornerRadius="0,30,30,30" />
-            </Border.StrokeShape>
-            
-            <VerticalStackLayout Padding="20" Spacing="10">
-                <Grid ColumnDefinitions="1.8*, Auto, Auto, Auto" VerticalOptions="Center">
-                    <!-- Term Label -->
-                    <Label Grid.Column="0" 
-                        Text="Term 1:" 
-                        FontSize="24" 
-                        FontAttributes="Bold" 
-                        TextColor="Black" 
-                        VerticalOptions="Center" />
-                    
-                    <!-- Start Date Variable -->
-                    <Label Grid.Column="1" 
-                        Text="01/01/26" 
-                        FontSize="14" 
-                        TextColor="Gray" 
-                        HorizontalOptions="End" 
-                        VerticalOptions="Center" />
-
-                    <!-- "-" placement -->
-                    <Label Grid.Column="2" 
-                        Text="-" 
-                        Margin="2, 0"
-                        FontSize="14" 
-                        TextColor="Gray" 
-                        HorizontalOptions="End" 
-                        VerticalOptions="Center" />
-
-                    <!-- End Date Variable -->
-                    <Label Grid.Column="3" 
-                        Text="02/05/26" 
-                        FontSize="14" 
-                        TextColor="Gray" 
-                        HorizontalOptions="End" 
-                        VerticalOptions="Center" />
-                </Grid>
-
-        <!-- Class Stack for the Term -->
-        <VerticalStackLayout Spacing="16">
-            
-            <!-- Class 1 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
-
-            <!-- Class 2 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
-
-            <!-- Class 3 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
-
-            <!-- Class 4 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
-
-            <!-- Class 5 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
-
-            <!-- Class 6 -->
-            <Border HeightRequest="50" BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-                <Border.StrokeShape><RoundRectangle CornerRadius="100"/></Border.StrokeShape>
-                <!-- Content of the class -->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Margin="7, 0">
-                <Grid HorizontalOptions="Start" VerticalOptions="Center" Margin="4, 0">
-                    
-                    <Border Stroke="Transparent"
-                            BackgroundColor="White"
-                            HeightRequest="36"
-                            WidthRequest="36">
-                        <Border.StrokeShape>
-                            <RoundRectangle CornerRadius="100" />
-                        </Border.StrokeShape>
-                    </Border>
-                    <!-- Class Credits -->
-                    <Label Text="4"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        TextColor="{StaticResource Primary}"
-                        FontSize="28"
-                        FontAttributes="Bold"/>
-                </Grid>
-                <!-- Class Name -->
-                <Label Text="C182 - Introduction to IT"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Center"
-                    TextColor="White"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    Margin="0"/>
-                </StackLayout>
-                
-            </Border>
-
-        </VerticalStackLayout>
-
-            </VerticalStackLayout>
-        </Border>
-
-        <ImageButton Source="expand.png"
-                    Clicked="ExpandButton_Clicked"
-                     BackgroundColor="Transparent"
-                     WidthRequest="50"
-                     HeightRequest="50"
-                     HorizontalOptions="End"
-                     TranslationX="14"
-                     TranslationY="-270"
-                    />
-
-    </VerticalStackLayout>
 </ScrollView>
 
 </ContentPage>
