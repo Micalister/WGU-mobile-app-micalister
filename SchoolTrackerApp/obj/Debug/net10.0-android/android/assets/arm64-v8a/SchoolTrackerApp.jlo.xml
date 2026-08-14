@@ -1,0 +1,15 @@
+<api>
+  <jcw-types>
+    <type name="MainActivity" package="crc64d275544845a02935" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiAppCompatActivity" partial_assembly_qualified_name="SchoolTrackerApp.MainActivity, SchoolTrackerApp">
+      <constructors>
+        <constructor name="MainActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="MainActivity" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+    <type name="MainApplication" package="crc64d275544845a02935" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiApplication" is_application="True" partial_assembly_qualified_name="SchoolTrackerApp.MainApplication, SchoolTrackerApp" application_constructor="MainApplication" />
+  </jcw-types>
+  <acw-types partial-assembly-name="SchoolTrackerApp" module-name="SchoolTrackerApp.dll">
+    <type assembly-qualified-name="SchoolTrackerApp.MainActivity, SchoolTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="schooltrackerapp.MainActivity" java-key="crc64d275544845a02935.MainActivity" managed-key="SchoolTrackerApp.MainActivity" partial-assembly-qualified-name="SchoolTrackerApp.MainActivity, SchoolTrackerApp" />
+    <type assembly-qualified-name="SchoolTrackerApp.MainApplication, SchoolTrackerApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="schooltrackerapp.MainApplication" java-key="crc64d275544845a02935.MainApplication" managed-key="SchoolTrackerApp.MainApplication" partial-assembly-qualified-name="SchoolTrackerApp.MainApplication, SchoolTrackerApp" />
+  </acw-types>
+</api>

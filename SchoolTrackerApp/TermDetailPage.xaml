@@ -8,8 +8,17 @@
 
 
     <ScrollView Padding="0, 0, 0, 0">
-        <VerticalStackLayout Padding="20" Spacing="10">     
-            <Border BackgroundColor="White" 
+        <VerticalStackLayout Padding="20" Spacing="10">  
+            <ImageButton Source="exit.png"
+                            Clicked="ExitButton_Clicked"
+                            BackgroundColor="Transparent"
+                            WidthRequest="40"
+                            HeightRequest="40"
+                            HorizontalOptions="Start"
+                            TranslationX="0"
+                            TranslationY="10"
+                            />   
+            <Border BackgroundColor="White" TranslationY="-30"
                         StrokeThickness="0" 
                         HorizontalOptions="Center" 
                         VerticalOptions="Center" 
@@ -21,16 +30,7 @@
                         </Border.StrokeShape>
                         
                         <!-- Card Content -->
-                        <VerticalStackLayout Padding="20" Spacing="10" TranslationY="-30">
-                            <ImageButton Source="exit.png"
-                            Clicked="ExitButton_Clicked"
-                            BackgroundColor="Transparent"
-                            WidthRequest="40"
-                            HeightRequest="40"
-                            HorizontalOptions="End"
-                            TranslationX="0"
-                            TranslationY="10"
-                            />
+                        <VerticalStackLayout Padding="20" Spacing="10">
                             <!-- Term Header -->
                         <Grid ColumnDefinitions="1.8*, Auto, Auto, Auto" VerticalOptions="Center">
                             <!-- Term Label -->
