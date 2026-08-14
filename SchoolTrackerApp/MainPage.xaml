@@ -12,7 +12,7 @@
 <!-- these tags tell the xaml to unpack each term into the design -->
 <CollectionView ItemsSource="{Binding Terms}">
     <CollectionView.ItemTemplate>
-        <DataTemplate x:DataType="models:Term">
+        <DataTemplate x:DataType="models:Terms">
             <!-- Phone Body -->
             <VerticalStackLayout Padding="20, 0">
                 

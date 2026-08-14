@@ -638,3 +638,5 @@
 /Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/SchoolTrackerApp.pdb
 /Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/SchoolTrackerApp.genruntimeconfig.cache
 /Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/ref/SchoolTrackerApp.dll
+/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/resizetizer/r/Resources/edit.png
+/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/resizetizer/r/Resources/picker.png
