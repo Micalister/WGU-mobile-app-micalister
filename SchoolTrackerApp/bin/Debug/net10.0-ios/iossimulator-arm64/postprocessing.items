@@ -28,7 +28,7 @@
       <DynamicLibraryId>@executable_path/libSystem.Globalization.Native.dylib</DynamicLibraryId>
       <AssemblyVersion></AssemblyVersion>
       <CopyLocal>true</CopyLocal>
-      <SourceProjectPath>/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp</SourceProjectPath>
+      <SourceProjectPath>/Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp</SourceProjectPath>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </_PostProcessingItem>
     <_PostProcessingItem Include="SchoolTrackerApp.app/libSystem.IO.Compression.Native.dylib">
@@ -58,7 +58,7 @@
       <DynamicLibraryId>@executable_path/libSystem.IO.Compression.Native.dylib</DynamicLibraryId>
       <AssemblyVersion></AssemblyVersion>
       <CopyLocal>true</CopyLocal>
-      <SourceProjectPath>/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp</SourceProjectPath>
+      <SourceProjectPath>/Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp</SourceProjectPath>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </_PostProcessingItem>
     <_PostProcessingItem Include="SchoolTrackerApp.app/libSystem.Native.dylib">
@@ -88,7 +88,7 @@
       <DynamicLibraryId>@executable_path/libSystem.Native.dylib</DynamicLibraryId>
       <AssemblyVersion></AssemblyVersion>
       <CopyLocal>true</CopyLocal>
-      <SourceProjectPath>/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp</SourceProjectPath>
+      <SourceProjectPath>/Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp</SourceProjectPath>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </_PostProcessingItem>
     <_PostProcessingItem Include="SchoolTrackerApp.app/libSystem.Net.Security.Native.dylib">
@@ -118,7 +118,7 @@
       <DynamicLibraryId>@executable_path/libSystem.Net.Security.Native.dylib</DynamicLibraryId>
       <AssemblyVersion></AssemblyVersion>
       <CopyLocal>true</CopyLocal>
-      <SourceProjectPath>/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp</SourceProjectPath>
+      <SourceProjectPath>/Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp</SourceProjectPath>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </_PostProcessingItem>
     <_PostProcessingItem Include="SchoolTrackerApp.app/libSystem.Security.Cryptography.Native.Apple.dylib">
@@ -148,7 +148,7 @@
       <DynamicLibraryId>@executable_path/libSystem.Security.Cryptography.Native.Apple.dylib</DynamicLibraryId>
       <AssemblyVersion></AssemblyVersion>
       <CopyLocal>true</CopyLocal>
-      <SourceProjectPath>/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp</SourceProjectPath>
+      <SourceProjectPath>/Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp</SourceProjectPath>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </_PostProcessingItem>
     <_PostProcessingItem Include="SchoolTrackerApp.app/libmono-component-debugger.dylib">
@@ -178,7 +178,7 @@
       <DynamicLibraryId>@executable_path/libmono-component-debugger.dylib</DynamicLibraryId>
       <AssemblyVersion></AssemblyVersion>
       <CopyLocal>true</CopyLocal>
-      <SourceProjectPath>/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp</SourceProjectPath>
+      <SourceProjectPath>/Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp</SourceProjectPath>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </_PostProcessingItem>
     <_PostProcessingItem Include="SchoolTrackerApp.app/libmono-component-diagnostics_tracing.dylib">
@@ -208,7 +208,7 @@
       <DynamicLibraryId>@executable_path/libmono-component-diagnostics_tracing.dylib</DynamicLibraryId>
       <AssemblyVersion></AssemblyVersion>
       <CopyLocal>true</CopyLocal>
-      <SourceProjectPath>/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp</SourceProjectPath>
+      <SourceProjectPath>/Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp</SourceProjectPath>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </_PostProcessingItem>
     <_PostProcessingItem Include="SchoolTrackerApp.app/libmono-component-hot_reload.dylib">
@@ -238,7 +238,7 @@
       <DynamicLibraryId>@executable_path/libmono-component-hot_reload.dylib</DynamicLibraryId>
       <AssemblyVersion></AssemblyVersion>
       <CopyLocal>true</CopyLocal>
-      <SourceProjectPath>/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp</SourceProjectPath>
+      <SourceProjectPath>/Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp</SourceProjectPath>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </_PostProcessingItem>
     <_PostProcessingItem Include="SchoolTrackerApp.app/libmono-component-marshal-ilgen.dylib">
@@ -268,7 +268,7 @@
       <DynamicLibraryId>@executable_path/libmono-component-marshal-ilgen.dylib</DynamicLibraryId>
       <AssemblyVersion></AssemblyVersion>
       <CopyLocal>true</CopyLocal>
-      <SourceProjectPath>/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp</SourceProjectPath>
+      <SourceProjectPath>/Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp</SourceProjectPath>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </_PostProcessingItem>
     <_PostProcessingItem Include="SchoolTrackerApp.app/libmonosgen-2.0.dylib">
@@ -298,7 +298,7 @@
       <DynamicLibraryId>@executable_path/libmonosgen-2.0.dylib</DynamicLibraryId>
       <AssemblyVersion></AssemblyVersion>
       <CopyLocal>true</CopyLocal>
-      <SourceProjectPath>/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp</SourceProjectPath>
+      <SourceProjectPath>/Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp</SourceProjectPath>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </_PostProcessingItem>
     <_PostProcessingItem Include="SchoolTrackerApp.app/libxamarin-dotnet-debug.dylib">
@@ -328,7 +328,7 @@
       <DynamicLibraryId>@executable_path/libxamarin-dotnet-debug.dylib</DynamicLibraryId>
       <AssemblyVersion></AssemblyVersion>
       <CopyLocal>true</CopyLocal>
-      <SourceProjectPath>/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp</SourceProjectPath>
+      <SourceProjectPath>/Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp</SourceProjectPath>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </_PostProcessingItem>
     <_PostProcessingItem Include="SchoolTrackerApp.app/SchoolTrackerApp">
@@ -338,9 +338,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>SchoolTrackerApp.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/mtouch-symbols.list</SymbolFile>
+      <SymbolFile>/Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/mtouch-symbols.list</SymbolFile>
       <DSymName>SchoolTrackerApp.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp</SourceProjectPath>
+      <SourceProjectPath>/Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp</SourceProjectPath>
       <IsXPCService></IsXPCService>
     </_PostProcessingItem>
   </ItemGroup>

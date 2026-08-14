@@ -5,7 +5,7 @@ AreAnyAssembliesTrimmed=false
 				AOTOutputDirectory=obj/Debug/net10.0-ios/iossimulator-arm64/nativelibraries/aot-output/
 				DedupAssembly=
 				AppBundleManifestPath=bin/Debug/net10.0-ios/iossimulator-arm64/SchoolTrackerApp.app/Info.plist
-				CacheDirectory=/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/linker-cache
+				CacheDirectory=/Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/linker-cache
 				
 				Debug=true
 				DeploymentTarget=15.0
@@ -190,7 +190,7 @@ FrameworkAssembly=System.Private.CoreLib
 				IntermediateOutputPath=obj/Debug/net10.0-ios/iossimulator-arm64/
 				InvariantGlobalization=false
 				HybridGlobalization=true
-				ItemsDirectory=/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/linker-items
+				ItemsDirectory=/Users/micalister/Desktop/LAP2C971/WGUMobileAppMicalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/linker-items
 				IsAppExtension=false
 				IsSimulatorBuild=true
 				LibMonoLinkMode=dylib

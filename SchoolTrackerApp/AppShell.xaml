@@ -6,6 +6,10 @@
     xmlns:local="clr-namespace:SchoolTrackerApp"
     Title="SchoolTrackerApp">
 
+    <!--<Shell.BackButtonBehavior>
+        <BackButtonBehavior IsVisible="False" IsEnabled="False" />
+    </Shell.BackButtonBehavior>-->
+
     <Shell.TitleView>
         <Grid
             Padding="10"

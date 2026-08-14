@@ -19,6 +19,7 @@ public class Classes
     public DateTime? OAStartDate { get; set; } = null;
     public DateTime? OAEndDate { get; set; } = null;
     public bool OACompleted { get; set; } = false;
+    public bool ClassComplete  { get; set; } = false;
 }
 
 public class Terms

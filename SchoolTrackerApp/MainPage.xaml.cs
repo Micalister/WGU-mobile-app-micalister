@@ -8,7 +8,12 @@ public partial class MainPage : ContentPage
 
 	private async void ExpandButton_Clicked(object sender, EventArgs e)
 	{
-		await DisplayAlertAsync("Alert", "You clicked the button!", "OK");
+		var button = sender as ImageButton;
+
+		if (button?.BindingContext is Terms selectedTerm)
+		{
+			await Navigation.PushAsync(new TermDetailPage(selectedTerm));
+		}
 	}
 
 	public MainPage()
@@ -50,7 +55,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -75,7 +82,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -100,7 +109,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -125,7 +136,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -150,7 +163,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -175,7 +190,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						}
 					}
 				},
@@ -210,7 +227,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -235,7 +254,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -260,7 +281,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -285,7 +308,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -310,7 +335,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -335,7 +362,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						}
 					}
 				},
@@ -370,7 +399,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -395,7 +426,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -420,7 +453,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -445,7 +480,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -470,7 +507,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -495,7 +534,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						}
 					}
 				},
@@ -530,7 +571,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -555,7 +598,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -580,7 +625,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -605,7 +652,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -630,7 +679,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -655,7 +706,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						}
 					}
 				},
@@ -690,7 +743,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -715,7 +770,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -740,7 +797,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -765,7 +824,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -790,7 +851,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -815,7 +878,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						}
 					}
 				},
@@ -850,7 +915,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -875,7 +942,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -900,7 +969,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -925,7 +996,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -950,7 +1023,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						},
 						new Classes
 						{
@@ -975,7 +1050,9 @@ public partial class MainPage : ContentPage
 							ObjectiveAssessment = "to be filled",
 							OAStartDate = new DateTime(1,1,1),
 							OAEndDate = new DateTime(1,1,1),
-							OACompleted = false
+							OACompleted = false,
+
+							ClassComplete = false
 						}
 					}
 				}
