@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="SchoolTrackerApp.TermEditPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Term Details"
+    BackgroundColor="{StaticResource Primary}"
+    xmlns:models="clr-namespace:SchoolTrackerApp.Models">
+
+    <ScrollView>
+    <Label Text="{Binding TermID, StringFormat='{0} Term Edit Page'}" TextColor="White" />
+</ScrollView>
+
+</ContentPage>

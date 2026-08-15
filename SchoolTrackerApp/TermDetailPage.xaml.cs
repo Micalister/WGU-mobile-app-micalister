@@ -1,5 +1,7 @@
 //using SchoolTrackerApp.Models;
 
+using SchoolTrackerApp.Models;
+
 namespace SchoolTrackerApp;
 
 public partial class TermDetailPage : ContentPage
@@ -8,6 +10,51 @@ public partial class TermDetailPage : ContentPage
     public async void ExitButton_Clicked(object sender, EventArgs e)
     {
         await Navigation.PopAsync();
+    }
+
+    //Term Edit Page Button
+     private async void EditTerm_Clicked(object sender, EventArgs e)
+    {
+        var button = sender as ImageButton;
+
+        if (button?.BindingContext is Terms selectedTerm)
+        {
+            await Navigation.PushAsync(new TermEditPage(selectedTerm));
+        }
+    }
+
+    // Class Edit Button
+
+    private async void EditClass_Clicked(object sender, EventArgs e)
+{
+    var button = sender as ImageButton;
+
+    if (button?.BindingContext is Classes selectedClass)
+    {
+        await Navigation.PushAsync(new EditClassPage(selectedClass));
+    }
+}
+
+// PA Edit Button
+    private async void ManagePA_Clicked(object sender, EventArgs e)
+    {
+        var button = sender as ImageButton;
+
+    if (button?.BindingContext is Classes selectedClass)
+    {
+        await Navigation.PushAsync(new ManagePAPage(selectedClass));
+    }
+    }
+
+// OA Edit Button
+    private async void ManageOA_Clicked(object sender, EventArgs e)
+    {
+        var button = sender as ImageButton;
+
+    if (button?.BindingContext is Classes selectedClass)
+    {
+        await Navigation.PushAsync(new ManageOAPage(selectedClass));
+    }
     }
 
 // the Class Status Picker, temp for set up

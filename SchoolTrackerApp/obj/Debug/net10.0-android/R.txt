@@ -3182,10 +3182,11 @@ int drawable oa 0x7f0700bf
 int drawable pa 0x7f0700c0
 int drawable picker 0x7f0700c1
 int drawable profileicon 0x7f0700c2
-int drawable test_level_drawable 0x7f0700c3
-int drawable tooltip_frame_dark 0x7f0700c4
-int drawable tooltip_frame_light 0x7f0700c5
-int drawable wguicon 0x7f0700c6
+int drawable share 0x7f0700c3
+int drawable test_level_drawable 0x7f0700c4
+int drawable tooltip_frame_dark 0x7f0700c5
+int drawable tooltip_frame_light 0x7f0700c6
+int drawable wguicon 0x7f0700c7
 int id above 0x7f080000
 int id accelerate 0x7f080001
 int id accessibility_action_clickable_span 0x7f080002

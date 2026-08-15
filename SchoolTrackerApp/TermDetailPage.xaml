@@ -18,7 +18,7 @@
                                 HorizontalOptions="Start"
                                 /> 
                     <ImageButton Source="edit.png"
-                                Clicked="ExitButton_Clicked"
+                                Clicked="EditTerm_Clicked"
                                 BackgroundColor="Transparent"
                                 WidthRequest="40"
                                 HeightRequest="40"
@@ -114,7 +114,7 @@
                                                         </Grid>
                                                         <!-- Edit Classes Button -->
                                                         <ImageButton Source="edit.png"
-                                                            Clicked="ExitButton_Clicked"
+                                                            Clicked="EditClass_Clicked"
                                                             BackgroundColor="Transparent"
                                                             WidthRequest="30"
                                                             HeightRequest="30"
@@ -259,17 +259,18 @@
                                                             <!-- Button -->
                                                             <Grid WidthRequest="150" HeightRequest="60">
                                                                 <ImageButton Source="bluepicker.png"
-                                                                            WidthRequest="140"
+                                                                            WidthRequest="110"
                                                                             BackgroundColor="Transparent"
+                                                                            Clicked="ManagePA_Clicked"
                                                                              />
 
-                                                                <Label Text="Complete"
+                                                                <Label Text="Manage"
                                                                     TextColor="White"
-                                                                    HorizontalOptions="Start"
+                                                                    HorizontalOptions="Center"
                                                                     VerticalOptions="Center"
                                                                     FontAttributes="Bold"
                                                                     InputTransparent="True"
-                                                                    TranslationX="16" />
+                                                                    TranslationX="-10" />
                                                             </Grid> 
                                                         </VerticalStackLayout>
 
@@ -307,17 +308,18 @@
                                                             <!-- Button -->
                                                             <Grid WidthRequest="150" HeightRequest="60">
                                                                 <ImageButton Source="bluepicker.png"
-                                                                            WidthRequest="140"
+                                                                            WidthRequest="110"
                                                                             BackgroundColor="Transparent"
+                                                                            Clicked="ManageOA_Clicked"
                                                                              />
 
-                                                                <Label Text="Complete"
+                                                                <Label Text="Manage"
                                                                     TextColor="White"
-                                                                    HorizontalOptions="Start"
+                                                                    HorizontalOptions="Center"
                                                                     VerticalOptions="Center"
                                                                     FontAttributes="Bold"
                                                                     InputTransparent="True"
-                                                                    TranslationX="16" />
+                                                                    TranslationX="-10" />
                                                             </Grid>
                                                         </VerticalStackLayout>
 

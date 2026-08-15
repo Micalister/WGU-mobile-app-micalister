@@ -643,3 +643,4 @@
 /Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/resizetizer/r/Resources/pa.png
 /Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/resizetizer/r/Resources/oa.png
 /Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/resizetizer/r/Resources/bluepicker.png
+/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/resizetizer/r/Resources/share.png
