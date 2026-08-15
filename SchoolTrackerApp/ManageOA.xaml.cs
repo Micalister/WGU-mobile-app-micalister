@@ -4,6 +4,10 @@ namespace SchoolTrackerApp;
 
 public partial class ManageOAPage : ContentPage
 {
+    public async void ExitButton_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PopAsync();
+    }
     public ManageOAPage(SchoolTrackerApp.Models.Classes selectedClass)
     {
         InitializeComponent();

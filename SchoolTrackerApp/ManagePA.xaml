@@ -7,8 +7,44 @@
     BackgroundColor="{StaticResource Primary}"
     xmlns:models="clr-namespace:SchoolTrackerApp.Models">
 
-    <ScrollView>
-    <Label Text="ManagePA Page" TextColor="White" />
-</ScrollView>
+    <ScrollView Padding="0, 0, 0, 0">
+        <VerticalStackLayout Padding="20" Spacing="10">
+            <HorizontalStackLayout Spacing="10" ZIndex="1" TranslationY="-10" TranslationX="-10">
+                <ImageButton Source="exit.png"
+                                Clicked="ExitButton_Clicked"
+                                BackgroundColor="Transparent"
+                                WidthRequest="40"
+                                HeightRequest="40"
+                                HorizontalOptions="Start"
+                                />    
+            </HorizontalStackLayout>
+            <Border BackgroundColor="White" TranslationY="-40"
+                        StrokeThickness="0" 
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center" 
+                        WidthRequest="342" 
+                        HeightRequest="422"
+                        ZIndex="0">
+                        
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="0,30,30,30" />
+                        </Border.StrokeShape>
+
+                <VerticalStackLayout Padding="20, 10">
+
+                        <Border BackgroundColor="{StaticResource Primary}"
+                                StrokeThickness="0" 
+                                HorizontalOptions="Center" 
+                                VerticalOptions="Center" 
+                                WidthRequest="302" 
+                                HeightRequest="302">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="30" />
+                            </Border.StrokeShape>
+                        </Border>
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
 
 </ContentPage>
