@@ -6,7 +6,7 @@
              BackgroundColor="{StaticResource Primary}"
              xmlns:models="clr-namespace:SchoolTrackerApp.Models"> 
 
-
+ 
     <ScrollView Padding="0, 0, 0, 0">
         <VerticalStackLayout Padding="20" Spacing="10">  
             <HorizontalStackLayout Spacing="10" ZIndex="1" TranslationY="-10" TranslationX="-10">
