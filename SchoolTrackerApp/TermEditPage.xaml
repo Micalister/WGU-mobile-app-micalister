@@ -44,30 +44,69 @@
 
                             <VerticalStackLayout Padding="14" Spacing="10">
 
-                                <VerticalStackLayout>
-                                    <Label Text="Term Title:"></Label>
-                                    <!--<Editor Text="{Binding EditTermID, Mode=TwoWay}" 
-                                        HeightRequest="150">
-                                        <Editor.Placeholder>
-                                            <Binding Path="TermID" />
-                                        </Editor.Placeholder>    
-                                    </Editor>-->
+                                <VerticalStackLayout Spacing="4">
+                                    <Label Text="Term Title:" FontSize="18" TextColor="White" ></Label>
+                                    <Border BackgroundColor="White"
+                                        StrokeThickness="0" 
+                                        HorizontalOptions="Start" 
+                                        WidthRequest="260" 
+                                        HeightRequest="30">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="8" />
+                                    </Border.StrokeShape>
+                                        <Entry Text="{Binding TermID, Mode=TwoWay}" 
+                                                Placeholder="{Binding TermID}"
+                                                VerticalOptions="Center" />
+                                    </Border>
                                 </VerticalStackLayout>
-                                <HorizontalStackLayout>
-                                    <Label Text="Term Title:"></Label>
+
+                                <HorizontalStackLayout Spacing="4">
+                                    <Label Text="Start Date:" FontSize="18" TextColor="White" VerticalOptions="Center"></Label>
+                                        <Border
+                                                BackgroundColor="White"
+                                                StrokeThickness="0" 
+                                                HeightRequest="30"
+                                                HorizontalOptions="Fill">
+                                            <Border.StrokeShape>
+                                                <RoundRectangle CornerRadius="30" />
+                                            </Border.StrokeShape>
+                                            
+                                            <DatePicker Date="{Binding TermStartDate, Mode=TwoWay}"
+                                                        Format="yyyy-MM-dd"
+                                                        VerticalOptions="Center"
+                                                        />
+                                        </Border>
+    
                                 </HorizontalStackLayout>
-                                <HorizontalStackLayout>
-                                    <Label Text="Term Title:"></Label>
+                                <HorizontalStackLayout Spacing="4">
+                                    <Label Text="End Date:" FontSize="18" TextColor="White" VerticalOptions="Center"></Label>
+                                        <Border
+                                                    BackgroundColor="White"
+                                                    StrokeThickness="0" 
+                                                    HeightRequest="30"
+                                                    HorizontalOptions="Fill">
+                                                <Border.StrokeShape>
+                                                    <RoundRectangle CornerRadius="30" />
+                                                </Border.StrokeShape>
+                                                
+                                                <DatePicker Date="{Binding TermEndDate, Mode=TwoWay}"
+                                                            Format="yyyy-MM-dd"
+                                                            VerticalOptions="Center"
+                                                            />
+                                        </Border>
+
                                 </HorizontalStackLayout>
 
                             <Button BackgroundColor="#0070F0"
+                                    Clicked="SaveButtonClicked"
                                     HeightRequest="30"
                                     WidthRequest="100"
                                     CornerRadius="16"
-                                    Text="Submit" />
+                                    Text="Save"
+                                    VerticalOptions="End" />
 
                             </VerticalStackLayout>
-
+                            
                         </Border>
                 </VerticalStackLayout>
             </Border>
