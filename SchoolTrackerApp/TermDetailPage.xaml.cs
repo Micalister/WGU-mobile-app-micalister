@@ -1,5 +1,3 @@
-//using SchoolTrackerApp.Models;
-
 using SchoolTrackerApp.Models;
 
 namespace SchoolTrackerApp;

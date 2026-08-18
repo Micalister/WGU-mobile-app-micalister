@@ -41,6 +41,33 @@
                             <Border.StrokeShape>
                                 <RoundRectangle CornerRadius="30" />
                             </Border.StrokeShape>
+
+                            <VerticalStackLayout Padding="14" Spacing="10">
+
+                                <VerticalStackLayout>
+                                    <Label Text="Term Title:"></Label>
+                                    <!--<Editor Text="{Binding EditTermID, Mode=TwoWay}" 
+                                        HeightRequest="150">
+                                        <Editor.Placeholder>
+                                            <Binding Path="TermID" />
+                                        </Editor.Placeholder>    
+                                    </Editor>-->
+                                </VerticalStackLayout>
+                                <HorizontalStackLayout>
+                                    <Label Text="Term Title:"></Label>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout>
+                                    <Label Text="Term Title:"></Label>
+                                </HorizontalStackLayout>
+
+                            <Button BackgroundColor="#0070F0"
+                                    HeightRequest="30"
+                                    WidthRequest="100"
+                                    CornerRadius="16"
+                                    Text="Submit" />
+
+                            </VerticalStackLayout>
+
                         </Border>
                 </VerticalStackLayout>
             </Border>

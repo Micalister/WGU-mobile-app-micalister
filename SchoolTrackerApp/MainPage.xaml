@@ -10,7 +10,7 @@
     
 <!-- starting the process of changing the design -->
 <!-- these tags tell the xaml to unpack each term into the design -->
-<CollectionView ItemsSource="{Binding Terms}">
+<CollectionView ItemsSource="{Binding MyRoadmap.Terms}">
     <CollectionView.ItemTemplate>
         <DataTemplate x:DataType="models:Terms">
             <!-- Phone Body -->
