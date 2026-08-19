@@ -37,6 +37,46 @@ public partial class EditClassPage : ContentPage
 
     private async void SaveButtonClicked(object sender, EventArgs e)
     {
+
+        if (BindingContext is Classes selectedClass)
+        {
+            if (string.IsNullOrWhiteSpace(selectedClass.Credits) || selectedClass.Credits.Length > 1 || !int.TryParse(selectedClass.Credits, out int result))
+            {
+                await DisplayAlertAsync("Error", "Please enter a valid course units", "OK");
+                return;
+            }
+            else if (selectedClass.ClassID.Length > 4 )
+            {
+                await DisplayAlertAsync("Error", "Please enter a valid course code", "OK");
+                return;
+            }
+            else if (string.IsNullOrWhiteSpace(selectedClass.ClassName))
+            {
+                await DisplayAlertAsync("Error", "Class title cannot be empty", "OK");
+                return;
+            }
+            else if (string.IsNullOrWhiteSpace(selectedClass.Teacher))
+            {
+                await DisplayAlertAsync("Error", "Teacher name cannot be empty", "OK");
+                return;
+            }
+            else if (string.IsNullOrWhiteSpace(selectedClass.TeacherPhone))
+            {
+                await DisplayAlertAsync("Error", "Teacher phone cannot be empty", "OK");
+                return;
+            }
+            else if (string.IsNullOrWhiteSpace(selectedClass.TeacherEmail))
+            {
+                await DisplayAlertAsync("Error", "Pls enter a valid Teacher Email", "OK");
+                return;
+            }
+            else if (!System.Text.RegularExpressions.Regex.IsMatch(selectedClass.TeacherEmail, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            {
+                await DisplayAlertAsync("Error", "Please enter a valid Teacher Email", "OK");
+                return;
+            }
+        }
+
         await Navigation.PopAsync();
     }
     public EditClassPage(SchoolTrackerApp.Models.Classes selectedClass)

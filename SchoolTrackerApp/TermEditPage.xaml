@@ -101,7 +101,7 @@
                                     FontSize="18"
                                     HeightRequest="30"
                                     WidthRequest="100"
-                                    CornerRadius="28"
+                                    CornerRadius="16"
                                     Text="Save"
                                     VerticalOptions="End"
                                     Margin="0, 14, 0, 0" />

@@ -62,7 +62,7 @@
                                 </HorizontalStackLayout>
 
                                 <HorizontalStackLayout Spacing="4">
-                                    <Label Text="Units:" FontSize="18" TextColor="White" ></Label>
+                                    <Label Text="Course Code:" FontSize="18" TextColor="White" ></Label>
                                     <Border BackgroundColor="White"
                                         StrokeThickness="0" 
                                         HorizontalOptions="Start" 
@@ -72,14 +72,14 @@
                                         <RoundRectangle CornerRadius="8" />
                                     </Border.StrokeShape>
                                         <Entry Text="{Binding ClassID, Mode=TwoWay}" 
-                                                Placeholder="{Binding Credits}"
+                                                Placeholder="{Binding ClassID}"
                                                 VerticalOptions="Center"
                                                 Keyboard="Numeric" />
                                     </Border>
                                 </HorizontalStackLayout>
 
                                 <VerticalStackLayout Spacing="4">
-                                    <Label Text="Term Title:" FontSize="18" TextColor="White" ></Label>
+                                    <Label Text="Class Title:" FontSize="18" TextColor="White" ></Label>
                                     <Border BackgroundColor="White"
                                         StrokeThickness="0" 
                                         HorizontalOptions="Start" 
@@ -89,7 +89,7 @@
                                         <RoundRectangle CornerRadius="8" />
                                     </Border.StrokeShape>
                                         <Entry Text="{Binding ClassName, Mode=TwoWay}" 
-                                                Placeholder="{Binding TermID}"
+                                                Placeholder="{Binding ClassName}"
                                                 VerticalOptions="Center" />
                                     </Border>
                                 </VerticalStackLayout>
@@ -145,7 +145,7 @@
                                                 <RoundRectangle CornerRadius="8" />
                                             </Border.StrokeShape>
                                                 <Entry Text="{Binding Teacher, Mode=TwoWay}" 
-                                                        Placeholder="{Binding TermID}"
+                                                        Placeholder="{Binding Teacher}"
                                                         VerticalOptions="Center" />
                                             </Border>
                                         </VerticalStackLayout>
@@ -161,7 +161,7 @@
                                                 <RoundRectangle CornerRadius="8" />
                                             </Border.StrokeShape>
                                                 <Entry Text="{Binding TeacherPhone, Mode=TwoWay}" 
-                                                        Placeholder="{Binding TermID}"
+                                                        Placeholder="{Binding TeacherPhone}"
                                                         VerticalOptions="Center" />
                                             </Border>
                                         </VerticalStackLayout>
@@ -177,7 +177,7 @@
                                                 <RoundRectangle CornerRadius="8" />
                                             </Border.StrokeShape>
                                                 <Entry Text="{Binding TeacherEmail, Mode=TwoWay}" 
-                                                        Placeholder="{Binding TermID}"
+                                                        Placeholder="{Binding TeacherEmail}"
                                                         VerticalOptions="Center" />
                                             </Border>
                                         </VerticalStackLayout>
