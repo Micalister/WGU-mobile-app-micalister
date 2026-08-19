@@ -23,7 +23,7 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center" 
                         WidthRequest="342" 
-                        HeightRequest="422"
+                        HeightRequest="622"
                         ZIndex="0">
                         
                         <Border.StrokeShape>
@@ -37,11 +37,56 @@
                                 HorizontalOptions="Center" 
                                 VerticalOptions="Center" 
                                 WidthRequest="302" 
-                                HeightRequest="302">
+                                HeightRequest="502">
                             <Border.StrokeShape>
                                 <RoundRectangle CornerRadius="30" />
                             </Border.StrokeShape>
+
+
+                            <VerticalStackLayout Padding="14" Spacing="4" TranslationY="30">
+                                <HorizontalStackLayout>
+                                    <Label Text="Course Notes:" FontSize="18" TextColor="White" VerticalOptions="Center"/>
+                                    <ImageButton 
+                                        HeightRequest="36"
+                                        WidthRequest="36"
+                                        Source="share.png"
+                                        TranslationY="-24"
+                                        TranslationX="100"
+                                        Clicked="OnShareClicked"/>
+                                </HorizontalStackLayout>
+                                <Border BackgroundColor="White"
+                                    StrokeThickness="0" 
+                                    HorizontalOptions="Center" 
+                                    VerticalOptions="Center" 
+                                    WidthRequest="260" 
+                                    HeightRequest="266"
+                                    >
+                                                            
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="20,20,20,20" />
+                                    </Border.StrokeShape>
+
+                                   
+                                    <VerticalStackLayout>
+                                        <Editor Text="{Binding Notes, Mode=TwoWay}" 
+                                                Placeholder="{Binding TermID}"
+                                                WidthRequest="260" 
+                                                HeightRequest="256"/>
+                                    </VerticalStackLayout>
+
+                                </Border>
+                            </VerticalStackLayout>
+                            
                         </Border>
+                        <Button BackgroundColor="#0070F0"
+                                    Clicked="SaveButtonClicked"
+                                    FontSize="18"
+                                    HeightRequest="30"
+                                    WidthRequest="100"
+                                    CornerRadius="16"
+                                    Text="Save"
+                                    VerticalOptions="End"
+                                    Margin="0, 14, 0, 0" />
                 </VerticalStackLayout>
             </Border>
         </VerticalStackLayout>
