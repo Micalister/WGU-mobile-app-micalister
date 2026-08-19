@@ -33,6 +33,16 @@ public partial class TermDetailPage : ContentPage
     }
 }
 
+private async void NotesPage_Clicked(object sender, EventArgs e)
+{
+    var button = sender as ImageButton;
+
+    if (button?.BindingContext is Classes selectedClass)
+    {
+        await Navigation.PushAsync(new NotesPage(selectedClass));
+    }
+}
+
 // PA Edit Button
     private async void ManagePA_Clicked(object sender, EventArgs e)
     {

@@ -228,7 +228,7 @@
                                                                 <ImageButton Source="bluepicker.png"
                                                                             WidthRequest="110"
                                                                             BackgroundColor="Transparent"
-                                                                            Clicked="ManageOA_Clicked"
+                                                                            Clicked="NotesPage_Clicked"
                                                                              />
 
                                                                 <Label Text="Manage"
