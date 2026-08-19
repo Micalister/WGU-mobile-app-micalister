@@ -23,24 +23,180 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center" 
                         WidthRequest="342" 
-                        HeightRequest="422"
+                        HeightRequest="622"
                         ZIndex="0">
                         
                         <Border.StrokeShape>
                             <RoundRectangle CornerRadius="0,30,30,30" />
                         </Border.StrokeShape>
 
-                <VerticalStackLayout Padding="20, 10">
+                <VerticalStackLayout Padding="20">
 
                         <Border BackgroundColor="{StaticResource Primary}"
                                 StrokeThickness="0" 
                                 HorizontalOptions="Center" 
                                 VerticalOptions="Center" 
                                 WidthRequest="302" 
-                                HeightRequest="302">
+                                HeightRequest="542">
                             <Border.StrokeShape>
                                 <RoundRectangle CornerRadius="30" />
                             </Border.StrokeShape>
+
+                            <VerticalStackLayout Padding="20" Spacing="10">
+
+                                <HorizontalStackLayout Spacing="4">
+                                    <Label Text="Units:" FontSize="18" TextColor="White" ></Label>
+                                    <Border BackgroundColor="White"
+                                        StrokeThickness="0" 
+                                        HorizontalOptions="Start" 
+                                        WidthRequest="30" 
+                                        HeightRequest="30">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="8" />
+                                    </Border.StrokeShape>
+                                        <Entry Text="{Binding Credits, Mode=TwoWay}" 
+                                                Placeholder="{Binding Credits}"
+                                                VerticalOptions="Center"
+                                                Keyboard="Numeric" />
+                                    </Border>
+                                </HorizontalStackLayout>
+
+                                <HorizontalStackLayout Spacing="4">
+                                    <Label Text="Units:" FontSize="18" TextColor="White" ></Label>
+                                    <Border BackgroundColor="White"
+                                        StrokeThickness="0" 
+                                        HorizontalOptions="Start" 
+                                        WidthRequest="50" 
+                                        HeightRequest="30">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="8" />
+                                    </Border.StrokeShape>
+                                        <Entry Text="{Binding ClassID, Mode=TwoWay}" 
+                                                Placeholder="{Binding Credits}"
+                                                VerticalOptions="Center"
+                                                Keyboard="Numeric" />
+                                    </Border>
+                                </HorizontalStackLayout>
+
+                                <VerticalStackLayout Spacing="4">
+                                    <Label Text="Term Title:" FontSize="18" TextColor="White" ></Label>
+                                    <Border BackgroundColor="White"
+                                        StrokeThickness="0" 
+                                        HorizontalOptions="Start" 
+                                        WidthRequest="260" 
+                                        HeightRequest="30">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="8" />
+                                    </Border.StrokeShape>
+                                        <Entry Text="{Binding ClassName, Mode=TwoWay}" 
+                                                Placeholder="{Binding TermID}"
+                                                VerticalOptions="Center" />
+                                    </Border>
+                                </VerticalStackLayout>
+
+                                <HorizontalStackLayout Spacing="4">
+                                    <Label Text="Start Date:" FontSize="18" TextColor="White" VerticalOptions="Center"></Label>
+                                        <Border
+                                                BackgroundColor="White"
+                                                StrokeThickness="0" 
+                                                HeightRequest="30"
+                                                HorizontalOptions="Fill">
+                                            <Border.StrokeShape>
+                                                <RoundRectangle CornerRadius="30" />
+                                            </Border.StrokeShape>
+                                            
+                                            <DatePicker Date="{Binding StartDate, Mode=TwoWay}"
+                                                        Format="yyyy-MM-dd"
+                                                        VerticalOptions="Center"
+                                                        />
+                                        </Border>
+                                </HorizontalStackLayout>
+
+                                <HorizontalStackLayout Spacing="4">
+                                    <Label Text="End Date:" FontSize="18" TextColor="White" VerticalOptions="Center"></Label>
+                                        <Border
+                                                BackgroundColor="White"
+                                                StrokeThickness="0" 
+                                                HeightRequest="30"
+                                                HorizontalOptions="Fill">
+                                            <Border.StrokeShape>
+                                                <RoundRectangle CornerRadius="30" />
+                                            </Border.StrokeShape>
+                                            
+                                            <DatePicker Date="{Binding EndDate, Mode=TwoWay}"
+                                                        Format="yyyy-MM-dd"
+                                                        VerticalOptions="Center"
+                                                        />
+                                        </Border>
+                                </HorizontalStackLayout>
+
+                                <VerticalStackLayout Spacing="4">
+                                    <Label Text="Course Instructor:" FontSize="18" TextColor="White" VerticalOptions="Center"></Label>
+                                    <VerticalStackLayout TranslationX="10">
+                                        
+                                        <VerticalStackLayout Spacing="4">
+                                            <Label Text="Name:" FontSize="18" TextColor="White" ></Label>
+                                            <Border BackgroundColor="White"
+                                                StrokeThickness="0" 
+                                                HorizontalOptions="Start" 
+                                                WidthRequest="240" 
+                                                HeightRequest="30">
+                                            <Border.StrokeShape>
+                                                <RoundRectangle CornerRadius="8" />
+                                            </Border.StrokeShape>
+                                                <Entry Text="{Binding Teacher, Mode=TwoWay}" 
+                                                        Placeholder="{Binding TermID}"
+                                                        VerticalOptions="Center" />
+                                            </Border>
+                                        </VerticalStackLayout>
+
+                                        <VerticalStackLayout Spacing="4">
+                                            <Label Text="Phone:" FontSize="18" TextColor="White" ></Label>
+                                            <Border BackgroundColor="White"
+                                                StrokeThickness="0" 
+                                                HorizontalOptions="Start" 
+                                                WidthRequest="240" 
+                                                HeightRequest="30">
+                                            <Border.StrokeShape>
+                                                <RoundRectangle CornerRadius="8" />
+                                            </Border.StrokeShape>
+                                                <Entry Text="{Binding TeacherPhone, Mode=TwoWay}" 
+                                                        Placeholder="{Binding TermID}"
+                                                        VerticalOptions="Center" />
+                                            </Border>
+                                        </VerticalStackLayout>
+
+                                        <VerticalStackLayout Spacing="4">
+                                            <Label Text="Email:" FontSize="18" TextColor="White" ></Label>
+                                            <Border BackgroundColor="White"
+                                                StrokeThickness="0" 
+                                                HorizontalOptions="Start" 
+                                                WidthRequest="240" 
+                                                HeightRequest="30">
+                                            <Border.StrokeShape>
+                                                <RoundRectangle CornerRadius="8" />
+                                            </Border.StrokeShape>
+                                                <Entry Text="{Binding TeacherEmail, Mode=TwoWay}" 
+                                                        Placeholder="{Binding TermID}"
+                                                        VerticalOptions="Center" />
+                                            </Border>
+                                        </VerticalStackLayout>
+
+                                    </VerticalStackLayout>
+                                </VerticalStackLayout>
+
+                                <Button BackgroundColor="#0070F0"
+                                    Clicked="SaveButtonClicked"
+                                    FontSize="18"
+                                    HeightRequest="30"
+                                    WidthRequest="100"
+                                    CornerRadius="16"
+                                    Text="Save"
+                                    VerticalOptions="End"
+                                    Margin="0, 14, 0, 0" />
+
+                            </VerticalStackLayout>
+
                         </Border>
                 </VerticalStackLayout>
             </Border>

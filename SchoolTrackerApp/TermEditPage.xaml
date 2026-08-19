@@ -23,7 +23,7 @@
                         HorizontalOptions="Center" 
                         VerticalOptions="Center" 
                         WidthRequest="342" 
-                        HeightRequest="422"
+                        HeightRequest="362"
                         ZIndex="0">
                         
                         <Border.StrokeShape>
@@ -37,7 +37,7 @@
                                 HorizontalOptions="Center" 
                                 VerticalOptions="Center" 
                                 WidthRequest="302" 
-                                HeightRequest="302">
+                                HeightRequest="272">
                             <Border.StrokeShape>
                                 <RoundRectangle CornerRadius="30" />
                             </Border.StrokeShape>
@@ -76,8 +76,8 @@
                                                         VerticalOptions="Center"
                                                         />
                                         </Border>
-    
                                 </HorizontalStackLayout>
+                                
                                 <HorizontalStackLayout Spacing="4">
                                     <Label Text="End Date:" FontSize="18" TextColor="White" VerticalOptions="Center"></Label>
                                         <Border
@@ -94,16 +94,17 @@
                                                             VerticalOptions="Center"
                                                             />
                                         </Border>
-
                                 </HorizontalStackLayout>
 
                             <Button BackgroundColor="#0070F0"
                                     Clicked="SaveButtonClicked"
+                                    FontSize="18"
                                     HeightRequest="30"
                                     WidthRequest="100"
-                                    CornerRadius="16"
+                                    CornerRadius="28"
                                     Text="Save"
-                                    VerticalOptions="End" />
+                                    VerticalOptions="End"
+                                    Margin="0, 14, 0, 0" />
 
                             </VerticalStackLayout>
                             

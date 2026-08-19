@@ -8,6 +8,11 @@ public partial class EditClassPage : ContentPage
     {
         await Navigation.PopAsync();
     }
+
+    private async void SaveButtonClicked(object sender, EventArgs e)
+    {
+        await Navigation.PopAsync();
+    }
     public EditClassPage(SchoolTrackerApp.Models.Classes selectedClass)
     {
         InitializeComponent();
