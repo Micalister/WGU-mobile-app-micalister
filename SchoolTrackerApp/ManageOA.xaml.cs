@@ -8,6 +8,12 @@ public partial class ManageOAPage : ContentPage
     {
         await Navigation.PopAsync();
     }
+
+    public async void SaveButtonClicked(object sender, EventArgs e)
+    {
+        await Navigation.PopAsync();
+    }
+    
     public ManageOAPage(SchoolTrackerApp.Models.Classes selectedClass)
     {
         InitializeComponent();
