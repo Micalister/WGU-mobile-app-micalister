@@ -50,6 +50,8 @@
 /Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../SchoolTrackerApp.app/Microsoft.Maui.dll
 /Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../SchoolTrackerApp.app/Microsoft.Maui.Essentials.dll
 /Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../SchoolTrackerApp.app/Microsoft.Maui.Graphics.dll
+/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../SchoolTrackerApp.app/Plugin.LocalNotification.dll
+/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../SchoolTrackerApp.app/Plugin.LocalNotification.Core.dll
 /Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../SchoolTrackerApp.app/SchoolTrackerApp.dll
 /Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../SchoolTrackerApp.app/Microsoft.CSharp.dll
 /Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../SchoolTrackerApp.app/Microsoft.VisualBasic.Core.dll

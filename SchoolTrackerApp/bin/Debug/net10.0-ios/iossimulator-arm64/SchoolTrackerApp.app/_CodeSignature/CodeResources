@@ -144,17 +144,25 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>Plugin.LocalNotification.Core.dll</key>
+		<data>
+		uNKS6xcUuX1ro8xQZ/ejN35eLPw=
+		</data>
+		<key>Plugin.LocalNotification.dll</key>
+		<data>
+		/gZT/+MmVa6b1VrG7P3FNgykDLo=
+		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		+59cRc8ev+HwAO70fp1P8R6hyjc=
+		pScV0m/ScDO7ioQvtmSZMpAwQyg=
 		</data>
 		<key>SchoolTrackerApp.dll</key>
 		<data>
-		e80Y8g1+4rq6P8bZ3oaIyQ5MepI=
+		mK0qcHfQeghmveA8SYy25PTPLG4=
 		</data>
 		<key>SchoolTrackerApp.pdb</key>
 		<data>
-		5yXd2OkDzAjdTVmI+ve0s3h8MFk=
+		vCLZucJPnihhXaarIlslrR5emPo=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
@@ -1314,25 +1322,39 @@
 			5DTxWXZgi7O6U7FsoWmi4QPeUgD8xLiyxRgf9YJyvoY=
 			</data>
 		</dict>
+		<key>Plugin.LocalNotification.Core.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PyA60Zgy+SNQ2dSbxBgKI5Fe0eZwAAJM6m0bbNKtnuo=
+			</data>
+		</dict>
+		<key>Plugin.LocalNotification.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			j0IvzgJe+/2dn/Mb54CKqHLEdojY8lQlH5sjVFitIFI=
+			</data>
+		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vSdOCYnhm9fj+qcbPQi0IfGVKZjXx/f8EMHfqNdMxU8=
+			LUmvxR+AnYD/ZW+eu2U/E662nGbklYRBNGFxJ0PKEjI=
 			</data>
 		</dict>
 		<key>SchoolTrackerApp.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f4+7Krqx2k53Ddhcz4kez6iOk/lB94J3MKa2U3BucQs=
+			HMHbidHn7jlItRwSj+3zZZ3HRjNnx9ZozSHkSzFxrKk=
 			</data>
 		</dict>
 		<key>SchoolTrackerApp.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3rxZQ2vrGau8+JSs8sP5fLIgi8ai8Ki9AeGjQCcbrmA=
+			lpjFtv3OADkCRkqqcu5HfDFSLmt1AYSS47niMkcQrLM=
 			</data>
 		</dict>
 		<key>Settings.bundle/Root.plist</key>

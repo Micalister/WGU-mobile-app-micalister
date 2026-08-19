@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xPHqPkC50Co=",
+  "dgSpecHash": "tW4xdq+tMhQ=",
   "success": true,
   "projectFilePath": "/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/SchoolTrackerApp.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,8 @@
     "/Users/micalister/.nuget/packages/microsoft.maui.graphics/10.0.20/microsoft.maui.graphics.10.0.20.nupkg.sha512",
     "/Users/micalister/.nuget/packages/microsoft.maui.resizetizer/10.0.20/microsoft.maui.resizetizer.10.0.20.nupkg.sha512",
     "/Users/micalister/.nuget/packages/microsoft.net.illink.tasks/10.0.10/microsoft.net.illink.tasks.10.0.10.nupkg.sha512",
+    "/Users/micalister/.nuget/packages/plugin.localnotification/14.1.1/plugin.localnotification.14.1.1.nupkg.sha512",
+    "/Users/micalister/.nuget/packages/plugin.localnotification.core/1.1.1/plugin.localnotification.core.1.1.1.nupkg.sha512",
     "/Users/micalister/.nuget/packages/xamarin.android.glide/4.16.0.14/xamarin.android.glide.4.16.0.14.nupkg.sha512",
     "/Users/micalister/.nuget/packages/xamarin.android.glide.annotations/4.16.0.14/xamarin.android.glide.annotations.4.16.0.14.nupkg.sha512",
     "/Users/micalister/.nuget/packages/xamarin.android.glide.disklrucache/4.16.0.14/xamarin.android.glide.disklrucache.4.16.0.14.nupkg.sha512",

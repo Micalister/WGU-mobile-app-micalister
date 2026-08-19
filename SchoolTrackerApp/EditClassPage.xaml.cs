@@ -1,10 +1,14 @@
 using SchoolTrackerApp.Models;
+using Plugin.LocalNotification;
+#if IOS || MACCATALYST
+using UserNotifications;
+using Foundation;
+#endif
 
 namespace SchoolTrackerApp;
 
 public partial class EditClassPage : ContentPage
 {
-
     private readonly string cancelCredits;
     private readonly string cancelClassID;
     private readonly string cancelClassName;
@@ -26,7 +30,7 @@ public partial class EditClassPage : ContentPage
         {
             selectedClass.Credits = cancelCredits;
             selectedClass.ClassID = cancelClassID;
-            selectedClass.ClassID = cancelClassName;
+            selectedClass.ClassName = cancelClassName;
             selectedClass.StartDate  = cancelStartDate;
             selectedClass.EndDate  = cancelEndDate;
             selectedClass.Teacher  = cancelTeacher;
@@ -37,48 +41,90 @@ public partial class EditClassPage : ContentPage
 
     private async void SaveButtonClicked(object sender, EventArgs e)
     {
-
         if (BindingContext is Classes selectedClass)
         {
             if (string.IsNullOrWhiteSpace(selectedClass.Credits) || selectedClass.Credits.Length > 1 || !int.TryParse(selectedClass.Credits, out int result))
             {
-                await DisplayAlertAsync("Error", "Please enter a valid course units", "OK");
+                await DisplayAlertAsync("Error", "Please enter valid course units", "OK");
                 return;
             }
-            else if (selectedClass.ClassID.Length > 4 )
+            if (selectedClass.ClassID.Length > 4 )
             {
                 await DisplayAlertAsync("Error", "Please enter a valid course code", "OK");
                 return;
             }
-            else if (string.IsNullOrWhiteSpace(selectedClass.ClassName))
+            if (string.IsNullOrWhiteSpace(selectedClass.ClassName))
             {
                 await DisplayAlertAsync("Error", "Class title cannot be empty", "OK");
                 return;
             }
-            else if (string.IsNullOrWhiteSpace(selectedClass.Teacher))
+            if (string.IsNullOrWhiteSpace(selectedClass.Teacher))
             {
                 await DisplayAlertAsync("Error", "Teacher name cannot be empty", "OK");
                 return;
             }
-            else if (string.IsNullOrWhiteSpace(selectedClass.TeacherPhone))
+            if (string.IsNullOrWhiteSpace(selectedClass.TeacherPhone))
             {
                 await DisplayAlertAsync("Error", "Teacher phone cannot be empty", "OK");
                 return;
             }
-            else if (string.IsNullOrWhiteSpace(selectedClass.TeacherEmail))
-            {
-                await DisplayAlertAsync("Error", "Pls enter a valid Teacher Email", "OK");
-                return;
-            }
-            else if (!System.Text.RegularExpressions.Regex.IsMatch(selectedClass.TeacherEmail, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            if (string.IsNullOrWhiteSpace(selectedClass.TeacherEmail))
             {
                 await DisplayAlertAsync("Error", "Please enter a valid Teacher Email", "OK");
                 return;
             }
+            if (!System.Text.RegularExpressions.Regex.IsMatch(selectedClass.TeacherEmail, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            {
+                await DisplayAlertAsync("Error", "Please enter a valid Teacher Email", "OK");
+                return;
+            }
+
+            ScheduleNativeAlerts(selectedClass);
         }
 
         await Navigation.PopAsync();
     }
+
+ private void ScheduleNativeAlerts(Classes course)
+{
+    #if IOS || MACCATALYST
+        UNUserNotificationCenter.Current.RequestAuthorization(
+            UNAuthorizationOptions.Alert | UNAuthorizationOptions.Sound, 
+            (approved, error) => { /* Handle response */ }
+        );
+
+        if (course.StartDate.HasValue && course.StartDate.Value.Year > 1 && course.StartDate.Value.Date == DateTime.Today)
+        {
+            var content = new UNMutableNotificationContent
+            {
+                Title = "Class Starting Reminder",
+                Body = $"{course.ClassName} starts today!",
+                Sound = UNNotificationSound.Default
+            };
+
+            var trigger = UNTimeIntervalNotificationTrigger.CreateTrigger(1, false);
+            
+            var request = UNNotificationRequest.FromIdentifier($"{course.ClassID}_start", content, trigger);
+            UNUserNotificationCenter.Current.AddNotificationRequest(request, (err) => { });
+        }
+
+        if (course.EndDate.HasValue && course.EndDate.Value.Year > 1 && course.EndDate.Value.Date == DateTime.Today)
+        {
+            var content = new UNMutableNotificationContent
+            {
+                Title = "Class Ending Reminder",
+                Body = $"{course.ClassName} concludes today.",
+                Sound = UNNotificationSound.Default
+            };
+
+            var trigger = UNTimeIntervalNotificationTrigger.CreateTrigger(5, false);
+            
+            var request = UNNotificationRequest.FromIdentifier($"{course.ClassID}_end", content, trigger);
+            UNUserNotificationCenter.Current.AddNotificationRequest(request, (err) => { });
+        }
+    #endif
+}
+
     public EditClassPage(SchoolTrackerApp.Models.Classes selectedClass)
     {
         InitializeComponent();

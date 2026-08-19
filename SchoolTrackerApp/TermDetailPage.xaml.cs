@@ -1,5 +1,6 @@
 using SchoolTrackerApp.Models;
 
+
 namespace SchoolTrackerApp;
 
 public partial class TermDetailPage : ContentPage

@@ -494,6 +494,35 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plugin.LocalNotification/14.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.LocalNotification.Core": "1.1.1"
+        },
+        "compile": {
+          "lib/net10.0-android36.0/Plugin.LocalNotification.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-android36.0/Plugin.LocalNotification.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Plugin.LocalNotification.Core/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0-android36.0/Plugin.LocalNotification.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-android36.0/Plugin.LocalNotification.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.16.0.14": {
         "type": "package",
         "dependencies": {
@@ -2979,6 +3008,35 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plugin.LocalNotification/14.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.LocalNotification.Core": "1.1.1"
+        },
+        "compile": {
+          "lib/net10.0-android36.0/Plugin.LocalNotification.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-android36.0/Plugin.LocalNotification.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Plugin.LocalNotification.Core/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0-android36.0/Plugin.LocalNotification.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-android36.0/Plugin.LocalNotification.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.16.0.14": {
         "type": "package",
         "dependencies": {
@@ -5434,6 +5492,35 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Plugin.LocalNotification/14.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.LocalNotification.Core": "1.1.1"
+        },
+        "compile": {
+          "lib/net10.0-ios26.0/Plugin.LocalNotification.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-ios26.0/Plugin.LocalNotification.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Plugin.LocalNotification.Core/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0-ios26.0/Plugin.LocalNotification.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-ios26.0/Plugin.LocalNotification.Core.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net10.0-ios/iossimulator-arm64": {
@@ -5898,6 +5985,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.LocalNotification/14.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.LocalNotification.Core": "1.1.1"
+        },
+        "compile": {
+          "lib/net10.0-ios26.0/Plugin.LocalNotification.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-ios26.0/Plugin.LocalNotification.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Plugin.LocalNotification.Core/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0-ios26.0/Plugin.LocalNotification.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-ios26.0/Plugin.LocalNotification.Core.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -6364,6 +6480,35 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Plugin.LocalNotification/14.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.LocalNotification.Core": "1.1.1"
+        },
+        "compile": {
+          "lib/net10.0-maccatalyst26.0/Plugin.LocalNotification.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-maccatalyst26.0/Plugin.LocalNotification.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Plugin.LocalNotification.Core/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0-maccatalyst26.0/Plugin.LocalNotification.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-maccatalyst26.0/Plugin.LocalNotification.Core.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net10.0-maccatalyst/iossimulator-arm64": {
@@ -6828,6 +6973,35 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.LocalNotification/14.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.LocalNotification.Core": "1.1.1"
+        },
+        "compile": {
+          "lib/net10.0-maccatalyst26.0/Plugin.LocalNotification.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-maccatalyst26.0/Plugin.LocalNotification.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Plugin.LocalNotification.Core/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0-maccatalyst26.0/Plugin.LocalNotification.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-maccatalyst26.0/Plugin.LocalNotification.Core.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
@@ -7997,6 +8171,53 @@
         "tools/netframework/build/Microsoft.NET.ILLink.Tasks.props",
         "tools/netframework/build/Microsoft.NET.ILLink.targets",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Plugin.LocalNotification/14.1.1": {
+      "sha512": "7rjq7plaMISKtJBAyVdlbVjtmXBtPJhgxpdNzoLl2RUdQXuQgiHXmVgsAXRolvpfP8iwP4oCMTCgIzKQInKQ2A==",
+      "type": "package",
+      "path": "plugin.localnotification/14.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net10.0-android36.0/Plugin.LocalNotification.dll",
+        "lib/net10.0-android36.0/Plugin.LocalNotification.xml",
+        "lib/net10.0-ios26.0/Plugin.LocalNotification.dll",
+        "lib/net10.0-ios26.0/Plugin.LocalNotification.xml",
+        "lib/net10.0-maccatalyst26.0/Plugin.LocalNotification.dll",
+        "lib/net10.0-maccatalyst26.0/Plugin.LocalNotification.xml",
+        "lib/net10.0-windows10.0.19041/Plugin.LocalNotification.dll",
+        "lib/net10.0-windows10.0.19041/Plugin.LocalNotification.pri",
+        "lib/net10.0-windows10.0.19041/Plugin.LocalNotification.xml",
+        "lib/net10.0/Plugin.LocalNotification.dll",
+        "lib/net10.0/Plugin.LocalNotification.xml",
+        "plugin.localnotification.14.1.1.nupkg.sha512",
+        "plugin.localnotification.nuspec"
+      ]
+    },
+    "Plugin.LocalNotification.Core/1.1.1": {
+      "sha512": "rtuWGBKXzAYVDtaA5Vic8sQiudLMXsAQdiWZAc+ifkxEKGyrf6DtcxzKKcTxdbd+FNdXeenHMOuxP/8jTSU4tw==",
+      "type": "package",
+      "path": "plugin.localnotification.core/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net10.0-android36.0/Plugin.LocalNotification.Core.dll",
+        "lib/net10.0-android36.0/Plugin.LocalNotification.Core.xml",
+        "lib/net10.0-ios26.0/Plugin.LocalNotification.Core.dll",
+        "lib/net10.0-ios26.0/Plugin.LocalNotification.Core.xml",
+        "lib/net10.0-maccatalyst26.0/Plugin.LocalNotification.Core.dll",
+        "lib/net10.0-maccatalyst26.0/Plugin.LocalNotification.Core.xml",
+        "lib/net10.0-windows10.0.19041/Plugin.LocalNotification.Core.dll",
+        "lib/net10.0-windows10.0.19041/Plugin.LocalNotification.Core.xml",
+        "lib/net10.0/Plugin.LocalNotification.Core.dll",
+        "lib/net10.0/Plugin.LocalNotification.Core.xml",
+        "plugin.localnotification.core.1.1.1.nupkg.sha512",
+        "plugin.localnotification.core.nuspec"
       ]
     },
     "Xamarin.Android.Glide/4.16.0.14": {
@@ -10382,17 +10603,20 @@
     "net10.0-android": [
       "Microsoft.Extensions.Logging.Debug >= 10.0.0",
       "Microsoft.Maui.Controls >= 10.0.20",
-      "Microsoft.NET.ILLink.Tasks >= 10.0.10"
+      "Microsoft.NET.ILLink.Tasks >= 10.0.10",
+      "Plugin.LocalNotification >= 14.1.1"
     ],
     "net10.0-ios": [
       "Microsoft.Extensions.Logging.Debug >= 10.0.0",
       "Microsoft.Maui.Controls >= 10.0.20",
-      "Microsoft.NET.ILLink.Tasks >= 10.0.10"
+      "Microsoft.NET.ILLink.Tasks >= 10.0.10",
+      "Plugin.LocalNotification >= 14.1.1"
     ],
     "net10.0-maccatalyst": [
       "Microsoft.Extensions.Logging.Debug >= 10.0.0",
       "Microsoft.Maui.Controls >= 10.0.20",
-      "Microsoft.NET.ILLink.Tasks >= 10.0.10"
+      "Microsoft.NET.ILLink.Tasks >= 10.0.10",
+      "Plugin.LocalNotification >= 14.1.1"
     ]
   },
   "packageFolders": {
@@ -10467,6 +10691,10 @@
             "target": "Package",
             "version": "[10.0.10, )",
             "autoReferenced": true
+          },
+          "Plugin.LocalNotification": {
+            "target": "Package",
+            "version": "[14.1.1, )"
           }
         },
         "imports": [
@@ -10784,6 +11012,10 @@
             "target": "Package",
             "version": "[10.0.10, )",
             "autoReferenced": true
+          },
+          "Plugin.LocalNotification": {
+            "target": "Package",
+            "version": "[14.1.1, )"
           }
         },
         "imports": [
@@ -11101,6 +11333,10 @@
             "target": "Package",
             "version": "[10.0.10, )",
             "autoReferenced": true
+          },
+          "Plugin.LocalNotification": {
+            "target": "Package",
+            "version": "[14.1.1, )"
           }
         },
         "imports": [

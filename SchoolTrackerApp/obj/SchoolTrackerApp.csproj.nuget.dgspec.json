@@ -73,6 +73,10 @@
               "target": "Package",
               "version": "[10.0.10, )",
               "autoReferenced": true
+            },
+            "Plugin.LocalNotification": {
+              "target": "Package",
+              "version": "[14.1.1, )"
             }
           },
           "imports": [
@@ -390,6 +394,10 @@
               "target": "Package",
               "version": "[10.0.10, )",
               "autoReferenced": true
+            },
+            "Plugin.LocalNotification": {
+              "target": "Package",
+              "version": "[14.1.1, )"
             }
           },
           "imports": [
@@ -707,6 +715,10 @@
               "target": "Package",
               "version": "[10.0.10, )",
               "autoReferenced": true
+            },
+            "Plugin.LocalNotification": {
+              "target": "Package",
+              "version": "[14.1.1, )"
             }
           },
           "imports": [

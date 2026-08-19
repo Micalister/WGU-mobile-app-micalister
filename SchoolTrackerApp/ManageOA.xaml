@@ -41,6 +41,67 @@
                             <Border.StrokeShape>
                                 <RoundRectangle CornerRadius="30" />
                             </Border.StrokeShape>
+
+                            <VerticalStackLayout Padding="8, 6"  Spacing="10" TranslationY="10">
+                                <HorizontalStackLayout Spacing="4">
+                                    <Image Source="oa.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Start"/>
+                                    <Label Text="Objective Assessment:" FontSize="18" TextColor="White" HorizontalOptions="Center" TranslationY="2"/>
+                                </HorizontalStackLayout>
+                                
+                                <VerticalStackLayout Spacing="4">
+                                    <Label Text="Assessment Name:" FontSize="18" TextColor="White" ></Label>
+                                    <Border BackgroundColor="White"
+                                        StrokeThickness="0" 
+                                        HorizontalOptions="Start" 
+                                        WidthRequest="260" 
+                                        HeightRequest="30">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="8" />
+                                    </Border.StrokeShape>
+                                        <Entry Text="{Binding ObjectiveAssessment, Mode=TwoWay}" 
+                                                Placeholder="{Binding ObjectiveAssessment}"
+                                                VerticalOptions="Center" />
+                                    </Border>
+                                </VerticalStackLayout>
+
+                                <HorizontalStackLayout Spacing="4">
+                                    <Label Text="Start Date:" FontSize="18" TextColor="White" VerticalOptions="Center"></Label>
+                                        <Border
+                                                BackgroundColor="White"
+                                                StrokeThickness="0" 
+                                                HeightRequest="30"
+                                                HorizontalOptions="Fill">
+                                            <Border.StrokeShape>
+                                                <RoundRectangle CornerRadius="30" />
+                                            </Border.StrokeShape>
+                                            
+                                            <DatePicker Date="{Binding OAStartDate, Mode=TwoWay}"
+                                                        Format="yyyy-MM-dd"
+                                                        VerticalOptions="Center"
+                                                        />
+                                        </Border>
+                                </HorizontalStackLayout>
+
+                                <HorizontalStackLayout Spacing="4">
+                                    <Label Text="End Date:" FontSize="18" TextColor="White" VerticalOptions="Center"></Label>
+                                        <Border
+                                                BackgroundColor="White"
+                                                StrokeThickness="0" 
+                                                HeightRequest="30"
+                                                HorizontalOptions="Fill">
+                                            <Border.StrokeShape>
+                                                <RoundRectangle CornerRadius="30" />
+                                            </Border.StrokeShape>
+                                            
+                                            <DatePicker Date="{Binding OAEndDate, Mode=TwoWay}"
+                                                        Format="yyyy-MM-dd"
+                                                        VerticalOptions="Center"
+                                                        />
+                                        </Border>
+                                </HorizontalStackLayout>
+
+                            </VerticalStackLayout>
+
                         </Border>
                 </VerticalStackLayout>
             </Border>

@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using Plugin.LocalNotification;
+
 
 namespace SchoolTrackerApp;
 
@@ -13,7 +15,8 @@ public static class MauiProgram
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-			});
+			})
+			.UseLocalNotification();
 
 #if DEBUG
 		builder.Logging.AddDebug();
