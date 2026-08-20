@@ -6,6 +6,8 @@ namespace SchoolTrackerApp;
 
 public partial class MainPage : ContentPage
 {
+    // Everything is ready for C:6 for testing purposes
+
 	public DegreeRoadmap MyRoadmap { get; set; }
 
 	private async void ExpandButton_Clicked(object sender, EventArgs e)
