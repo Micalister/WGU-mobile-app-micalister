@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchoolTrackerApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+9a9029f3c7efd1933762b81b2407c12cc013bdae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c58859029fbf363f9a687a8561ab0e30c9bf4ece")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchoolTrackerApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchoolTrackerApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
