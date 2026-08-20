@@ -75,10 +75,7 @@
                                     </VerticalStackLayout>
 
                                 </Border>
-                            </VerticalStackLayout>
-                            
-                        </Border>
-                        <Button BackgroundColor="#0070F0"
+                                <Button BackgroundColor="#0070F0"
                                     Clicked="SaveButtonClicked"
                                     FontSize="18"
                                     HeightRequest="30"
@@ -87,6 +84,10 @@
                                     Text="Save"
                                     VerticalOptions="End"
                                     Margin="0, 14, 0, 0" />
+                            </VerticalStackLayout>
+                            
+                        </Border>
+                        
                 </VerticalStackLayout>
             </Border>
         </VerticalStackLayout>

@@ -1,5 +1,4 @@
 using SchoolTrackerApp.Models;
-using Plugin.LocalNotification;
 #if IOS || MACCATALYST
 using UserNotifications;
 using Foundation;
@@ -90,7 +89,7 @@ public partial class EditClassPage : ContentPage
     #if IOS || MACCATALYST
         UNUserNotificationCenter.Current.RequestAuthorization(
             UNAuthorizationOptions.Alert | UNAuthorizationOptions.Sound, 
-            (approved, error) => { /* Handle response */ }
+            (approved, error) => {}
         );
 
         if (course.StartDate.HasValue && course.StartDate.Value.Year > 1 && course.StartDate.Value.Date == DateTime.Today)
