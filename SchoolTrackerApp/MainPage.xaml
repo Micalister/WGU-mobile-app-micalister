@@ -10,6 +10,17 @@
     
 <!-- starting the process of changing the design -->
 <!-- these tags tell the xaml to unpack each term into the design -->
+
+<VerticalStackLayout>
+    <HorizontalStackLayout HorizontalOptions="End" Spacing="3" Padding="10" TranslationX="-10">
+        <Label FontSize="18" TextColor="White" VerticalOptions="Center">Add a Term</Label>
+        <ImageButton Source="add.png"
+                        Clicked="AddTermButton"
+                        BackgroundColor="Transparent"
+                        WidthRequest="40"
+                        HeightRequest="40"
+                        />
+    </HorizontalStackLayout>
 <CollectionView ItemsSource="{Binding MyRoadmap.Terms}">
     <CollectionView.ItemTemplate>
         <DataTemplate x:DataType="models:Terms">
@@ -126,7 +137,7 @@
         </DataTemplate>
     </CollectionView.ItemTemplate>
 </CollectionView>
-
+</VerticalStackLayout>
 </ScrollView>
 
 </ContentPage>

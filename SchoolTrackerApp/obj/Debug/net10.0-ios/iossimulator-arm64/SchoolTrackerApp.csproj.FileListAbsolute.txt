@@ -326,6 +326,7 @@
 /Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/ref/SchoolTrackerApp.dll
 /Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/bin/Debug/net10.0-ios/iossimulator-arm64/Plugin.LocalNotification.dll
 /Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/bin/Debug/net10.0-ios/iossimulator-arm64/Plugin.LocalNotification.Core.dll
+/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/resizetizer/r/Resources/add.png
 /Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/resourcestamps/Microsoft.Extensions.Configuration.Abstractions.stamp
 /Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/resourcestamps/Microsoft.Extensions.Configuration.stamp
 /Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/obj/Debug/net10.0-ios/iossimulator-arm64/resourcestamps/Microsoft.Extensions.DependencyInjection.Abstractions.stamp

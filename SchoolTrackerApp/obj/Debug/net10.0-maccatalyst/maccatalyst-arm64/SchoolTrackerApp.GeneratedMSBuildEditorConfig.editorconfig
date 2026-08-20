@@ -117,6 +117,16 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
+[/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/TermAddPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SchoolTrackerApp.TermAddPage.xaml
+build_metadata.AdditionalFiles.TargetPath = TermAddPage.xaml
+build_metadata.AdditionalFiles.RelativePath = TermAddPage.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
 [/Users/micalister/Desktop/LAP2 - C971/WGU-mobile-app-micalister/SchoolTrackerApp/TermDetailPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SchoolTrackerApp.TermDetailPage.xaml

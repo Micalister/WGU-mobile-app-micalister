@@ -158,11 +158,11 @@
 		</data>
 		<key>SchoolTrackerApp.dll</key>
 		<data>
-		83BCce5Jsj6QrZuzGiD9KM2khLc=
+		VrU6vvUE7mfCaUmrK/29EIJCVfw=
 		</data>
 		<key>SchoolTrackerApp.pdb</key>
 		<data>
-		x0s4td1UKl2t+kZItgKwBFQLj5A=
+		Ad6mSJ1Ly7rucXpYhBNR1G4dyQ4=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
@@ -832,6 +832,10 @@
 		<data>
 		BlLTcpf9+Gn1KwpbmonRc3zREmU=
 		</data>
+		<key>add.png</key>
+		<data>
+		VHgpmhIIKekAPXsc8i9hfCRMkXM=
+		</data>
 		<key>appicon60x60@2x.png</key>
 		<data>
 		/K9YsK4saPI4EhmIIMOVKlEuEpY=
@@ -1347,14 +1351,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0t6JfIZhGYNhk9ixV1Z88eNk+DWqavOFCisy9QGyB8Y=
+			Z8M4m6tSqXPFN8uO/OVdHbnkmvd0AQL3yTZpHCA0L7c=
 			</data>
 		</dict>
 		<key>SchoolTrackerApp.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2etkLCJINBqHULUEXc6mGXlza0uVQsVEgWVgqQ6ROyk=
+			NAlMoFcMvfDF+qMgj/NRWHph131BMKXJbL6IZLd5EGM=
 			</data>
 		</dict>
 		<key>Settings.bundle/Root.plist</key>
@@ -2524,6 +2528,13 @@
 			<key>hash2</key>
 			<data>
 			xJ6jwJYweSNxoW0DDovGHhXoRR8+WmNnFTJD2is462k=
+			</data>
+		</dict>
+		<key>add.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fRbxj3W/cVzQAKAB3ykWhaSI0ZG1W/W3LekANNwtADU=
 			</data>
 		</dict>
 		<key>appicon60x60@2x.png</key>

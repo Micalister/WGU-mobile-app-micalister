@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="SchoolTrackerApp.TermAddPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Term Details"
+    BackgroundColor="{StaticResource Primary}"
+    xmlns:models="clr-namespace:SchoolTrackerApp.Models">
+
+    <ScrollView Padding="0, 0, 0, 0">
+        <VerticalStackLayout Padding="20" Spacing="10">
+            <HorizontalStackLayout Spacing="10" ZIndex="1" TranslationY="-10" TranslationX="-10">
+                <ImageButton Source="exit.png"
+                                Clicked="ExitButton_Clicked"
+                                BackgroundColor="Transparent"
+                                WidthRequest="40"
+                                HeightRequest="40"
+                                HorizontalOptions="Start"
+                                />    
+            </HorizontalStackLayout>
+            <Border BackgroundColor="White" TranslationY="-40"
+                        StrokeThickness="0" 
+                        HorizontalOptions="Center" 
+                        VerticalOptions="Center" 
+                        WidthRequest="342" 
+                        HeightRequest="362"
+                        ZIndex="0">
+                        
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="0,30,30,30" />
+                        </Border.StrokeShape>
+
+                <VerticalStackLayout Padding="20, 10">
+
+                        <Border BackgroundColor="{StaticResource Primary}"
+                                StrokeThickness="0" 
+                                HorizontalOptions="Center" 
+                                VerticalOptions="Center" 
+                                WidthRequest="302" 
+                                HeightRequest="272">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="30" />
+                            </Border.StrokeShape>
+
+                            <VerticalStackLayout Padding="14" Spacing="10">
+
+                                <VerticalStackLayout Spacing="4">
+                                    <Label Text="Term Title:" FontSize="18" TextColor="White" ></Label>
+                                    <Border BackgroundColor="White"
+                                        StrokeThickness="0" 
+                                        HorizontalOptions="Start" 
+                                        WidthRequest="260" 
+                                        HeightRequest="30">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="8" />
+                                    </Border.StrokeShape>
+                                        <Entry Text="{Binding TermID, Mode=TwoWay}" 
+                                                Placeholder="{Binding TermID}"
+                                                VerticalOptions="Center" />
+                                    </Border>
+                                </VerticalStackLayout>
+
+                                <HorizontalStackLayout Spacing="4">
+                                    <Label Text="Start Date:" FontSize="18" TextColor="White" VerticalOptions="Center"></Label>
+                                        <Border
+                                                BackgroundColor="White"
+                                                StrokeThickness="0" 
+                                                HeightRequest="30"
+                                                HorizontalOptions="Fill">
+                                            <Border.StrokeShape>
+                                                <RoundRectangle CornerRadius="30" />
+                                            </Border.StrokeShape>
+                                            
+                                            <DatePicker Date="{Binding TermStartDate, Mode=TwoWay}"
+                                                        Format="yyyy-MM-dd"
+                                                        VerticalOptions="Center"
+                                                        />
+                                        </Border>
+                                </HorizontalStackLayout>
+                                
+                                <HorizontalStackLayout Spacing="4">
+                                    <Label Text="End Date:" FontSize="18" TextColor="White" VerticalOptions="Center"></Label>
+                                        <Border
+                                                    BackgroundColor="White"
+                                                    StrokeThickness="0" 
+                                                    HeightRequest="30"
+                                                    HorizontalOptions="Fill">
+                                                <Border.StrokeShape>
+                                                    <RoundRectangle CornerRadius="30" />
+                                                </Border.StrokeShape>
+                                                
+                                                <DatePicker Date="{Binding TermEndDate, Mode=TwoWay}"
+                                                            Format="yyyy-MM-dd"
+                                                            VerticalOptions="Center"
+                                                            />
+                                        </Border>
+                                </HorizontalStackLayout>
+
+                            <Button BackgroundColor="#0070F0"
+                                    Clicked="SaveButtonClicked"
+                                    FontSize="18"
+                                    HeightRequest="30"
+                                    WidthRequest="100"
+                                    CornerRadius="16"
+                                    Text="Save"
+                                    VerticalOptions="End"
+                                    Margin="0, 14, 0, 0" />
+
+                            </VerticalStackLayout>
+                            
+                        </Border>
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
